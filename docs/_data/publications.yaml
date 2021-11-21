@@ -1,0 +1,37 @@
+papers:
+
+  - title: "Explaining Latent Representations with a Corpus of Examples"
+    authors: "Jonathan Crabbé, Zhaozhi Qian, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "Neural Information Processing Systems (NeurIPS). 2021."
+    paper_pdf: "https://papers.nips.cc/paper/2021/file/65658fde58ab3c2b6e5132a39fae7cb9-Paper.pdf"
+    selected: y
+  
+  - title: "Closing the loop in medical decision support by understanding clinical decision-making: A case study on organ transplantation"
+    authors: "Yuchao Qin<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alihan Hüyük, Daniel Jarrett, Alexander Gimson, Mihaela van der Schaar"
+    venue: "Neural Information Processing Systems (NeurIPS). 2021"
+    paper_pdf: "https://papers.nips.cc/paper/2021/file/c344336196d5ec19bd54fd14befdde87-Paper.pdf"
+    selected: y
+
+  - title: "Deep generative design with 3D pharmacophoric constraints"
+    authors: "<b>Fergus Imrie</b>, Thomas E Hadfield, Anthony R Bradley, Charlotte M Deane"
+    venue: "Chemical Science. 2021."
+    paper_pdf: "https://pubs.rsc.org/en/content/articlelanding/2021/sc/d1sc02436a"
+    selected: y
+
+  - title: "Generating property-matched decoy molecules using deep learning"
+    authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Charlotte M Deane"
+    venue: "Bioinformatics. 2021."
+    paper_pdf: "https://academic.oup.com/bioinformatics/article/37/15/2134/6126797"
+    selected: y
+
+  - title: "Deep Generative Models for 3D Linker Design"
+    authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
+    venue: "Journal of Chemical Information and Modeling. 2020."
+    paper_pdf: "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b01120"
+    selected: y
+    
+  - title: "Protein Family-Specific Models using Deep Neural Networks and Transfer Learning Improve Virtual Screening and Highlight the Need for More Data"
+    authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
+    venue: "Journal of Chemical Information and Modeling. 2018."
+    paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.8b00350"
+    selected: y
