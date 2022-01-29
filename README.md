@@ -1,4 +1,23 @@
-# Martin Saveski's Website
+# Fergus Imrie's Website
+Credit for template to Martin Saveski.
+
+
+## How to update
+
+1. Make changes.
+
+2. Test changes with:
+```
+bundle exec jekyll serve
+```
+
+3. Push changes to github
+```
+git add .
+git commit -m ''
+git push origin master
+```
+
 
 ## Updates guide
 Change one of the files in `_data`, unless you are changing the look of the website.

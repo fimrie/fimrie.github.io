@@ -1,5 +1,11 @@
 papers:
 
+  - title: "Self-Supervision Enhanced Feature Selection with Correlated Gates"
+    authors: "Changhee Lee<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Mihaela van der Schaar"
+    venue: "International Conference on Learning Representations (ICLR). 2022."
+    paper_pdf: "https://openreview.net/pdf?id=oDFvtxzPOx"
+    selected: y
+
   - title: "Explaining Latent Representations with a Corpus of Examples"
     authors: "Jonathan Crabbé, Zhaozhi Qian, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021."
