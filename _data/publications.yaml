@@ -1,20 +1,27 @@
 papers:
 
+  - title: "Incorporating Target-Specific Pharmacophoric Information into Deep Generative Models for Fragment Elaboration"
+    authors: "Thomas E Hadfield, <b>Fergus Imrie</b>, Andy Merritt, Kristian Birchall, Charlotte M Deane"
+    venue: "Journal of Chemical Information and Modeling. 2022."
+    paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.1c01311"
+    selected: n
+
+
   - title: "Self-Supervision Enhanced Feature Selection with Correlated Gates"
     authors: "Changhee Lee<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Mihaela van der Schaar"
-    venue: "International Conference on Learning Representations (ICLR). 2022."
+    venue: "International Conference on Learning Representations (ICLR). 2022. <b>[Spotlight]</b>"
     paper_pdf: "https://openreview.net/pdf?id=oDFvtxzPOx"
     selected: y
 
   - title: "Explaining Latent Representations with a Corpus of Examples"
     authors: "Jonathan Crabbé, Zhaozhi Qian, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "Neural Information Processing Systems (NeurIPS). 2021."
+    venue: "Neural Information Processing Systems (NeurIPS). 2021. <b>[Spotlight]</b>"
     paper_pdf: "https://papers.nips.cc/paper/2021/file/65658fde58ab3c2b6e5132a39fae7cb9-Paper.pdf"
     selected: y
   
   - title: "Closing the loop in medical decision support by understanding clinical decision-making: A case study on organ transplantation"
     authors: "Yuchao Qin<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alihan Hüyük, Daniel Jarrett, Alexander Gimson, Mihaela van der Schaar"
-    venue: "Neural Information Processing Systems (NeurIPS). 2021"
+    venue: "Neural Information Processing Systems (NeurIPS). 2021."
     paper_pdf: "https://papers.nips.cc/paper/2021/file/c344336196d5ec19bd54fd14befdde87-Paper.pdf"
     selected: y
 
@@ -29,6 +36,13 @@ papers:
     venue: "Bioinformatics. 2021."
     paper_pdf: "https://academic.oup.com/bioinformatics/article/37/15/2134/6126797"
     selected: y
+
+  - title: "Virtual Screening with Convolutional Neural Networks"
+    authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Charlotte M Deane"
+    venue: "Artificial Intelligence in Drug Discovery (Book Chapter). 2020."
+    paper_pdf: "https://pubs.rsc.org/en/content/chapter/bk9781788015479-00151/978-1-78801-684-1"
+    selected: n
+
 
   - title: "Deep Generative Models for 3D Linker Design"
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
