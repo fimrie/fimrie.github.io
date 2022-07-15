@@ -1,11 +1,30 @@
 papers:
 
+  - title: "Differentiable and Transportable Structure Learning"
+    authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "Arxiv (Preprint). 2022."
+    paper_pdf: "https://arxiv.org/abs/2206.06354"
+    selected: n
+    preprint: y
+
+  - title: "Continuous-Time Modeling of Counterfactual Outcomes Using Neural Controlled Differential Equations"
+    authors: "Nabeel Seedat<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alexis Bellot, Zhaozhi Qian, Mihaela van der Schaar"
+    venue: "International Conference on Machine Learning (ICML). 2022."
+    paper_pdf: "https://proceedings.mlr.press/v162/seedat22b.html"
+    selected: y
+
+  - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
+    authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
+    venue: "Arxiv (Preprint). 2022."
+    paper_pdf: "https://arxiv.org/abs/2202.02096"
+    selected: n
+    preprint: y
+
   - title: "Incorporating Target-Specific Pharmacophoric Information into Deep Generative Models for Fragment Elaboration"
     authors: "Thomas E Hadfield, <b>Fergus Imrie</b>, Andy Merritt, Kristian Birchall, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2022."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.1c01311"
     selected: n
-
 
   - title: "Self-Supervision Enhanced Feature Selection with Correlated Gates"
     authors: "Changhee Lee<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Mihaela van der Schaar"
