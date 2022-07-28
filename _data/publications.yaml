@@ -1,5 +1,12 @@
 papers:
 
+  - title: "Testing the Limits of SMILES-based De Novo Molecular Generation with Curriculum and Deep Reinforcement Learning"
+    authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
+    venue: "bioRxiv (Preprint). 2022."
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2022.07.15.500218v1"
+    selected: n
+    preprint: y
+
   - title: "Differentiable and Transportable Structure Learning"
     authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Arxiv (Preprint). 2022."
