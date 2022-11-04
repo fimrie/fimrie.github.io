@@ -1,4 +1,16 @@
 papers:
+  - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
+    authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
+    venue: "Arxiv (Preprint). 2022."
+    paper_pdf: "https://arxiv.org/abs/2210.12090"
+    selected: y
+    preprint: y
+
+  - title: "Composite Feature Selection using Deep Ensembles"
+    authors: "<b>Fergus Imrie<sup>‡</sup></b>, Alexander Norcliffe<sup>‡</sup>, Pietro Lio, Mihaela van der Schaar"
+    venue: "Neural Information Processing Systems (NeurIPS). 2022."
+    paper_pdf: "https://openreview.net/forum?id=-9PV7GKwYpM"
+    selected: y
 
   - title: "Testing the Limits of SMILES-based De Novo Molecular Generation with Curriculum and Deep Reinforcement Learning"
     authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
