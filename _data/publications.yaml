@@ -1,7 +1,7 @@
 papers:
   - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
     authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
-    venue: "Arxiv (Preprint). 2022."
+    venue: "arXiv (Preprint). 2022."
     paper_pdf: "https://arxiv.org/abs/2210.12090"
     selected: y
     preprint: y
@@ -21,7 +21,7 @@ papers:
 
   - title: "Differentiable and Transportable Structure Learning"
     authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "Arxiv (Preprint). 2022."
+    venue: "arXiv (Preprint). 2022."
     paper_pdf: "https://arxiv.org/abs/2206.06354"
     selected: n
     preprint: y
@@ -34,7 +34,7 @@ papers:
 
   - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
     authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
-    venue: "Arxiv (Preprint). 2022."
+    venue: "arXiv (Preprint). 2022."
     paper_pdf: "https://arxiv.org/abs/2202.02096"
     selected: n
     preprint: y
