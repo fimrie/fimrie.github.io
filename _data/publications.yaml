@@ -1,4 +1,18 @@
 papers:
+  - title: "TANGOS: Regularizing Tabular Neural Networks through Gradient Orthogonalization and Specialization"
+    authors: "Alan Jeffares<sup>‡</sup>, Tennison Liu<sup>‡</sup>, Jonathan Crabbé, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "International Conference on Learning Representations (ICLR). 2023."
+    paper_pdf: "https://openreview.net/pdf?id=n6H86gW8u0d"
+    selected: y
+    preprint: n
+
+  - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
+    authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
+    paper_pdf: "https://arxiv.org/abs/2202.02096"
+    selected: y
+    preprint: n
+  
   - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
     authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
     venue: "arXiv (Preprint). 2022."
@@ -31,13 +45,6 @@ papers:
     venue: "International Conference on Machine Learning (ICML). 2022."
     paper_pdf: "https://proceedings.mlr.press/v162/seedat22b.html"
     selected: y
-
-  - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
-    authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2022."
-    paper_pdf: "https://arxiv.org/abs/2202.02096"
-    selected: n
-    preprint: y
 
   - title: "Incorporating Target-Specific Pharmacophoric Information into Deep Generative Models for Fragment Elaboration"
     authors: "Thomas E Hadfield, <b>Fergus Imrie</b>, Andy Merritt, Kristian Birchall, Charlotte M Deane"
