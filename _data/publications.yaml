@@ -1,4 +1,11 @@
 papers:
+  - title: "Assessing eligibility for lung cancer screening: Parsimonious multi-country ensemble machine learning models for lung cancer prediction"
+    authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
+    venue: "medRxiv (Preprint). 2023."
+    paper_pdf: "https://www.medrxiv.org/content/10.1101/2023.01.27.23284974v1"
+    selected: n
+    preprint: y
+
   - title: "TANGOS: Regularizing Tabular Neural Networks through Gradient Orthogonalization and Specialization"
     authors: "Alan Jeffares<sup>‡</sup>, Tennison Liu<sup>‡</sup>, Jonathan Crabbé, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2023."
