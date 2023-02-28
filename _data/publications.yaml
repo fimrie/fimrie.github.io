@@ -13,10 +13,24 @@ papers:
     selected: y
     preprint: n
 
+  - title: "Improving Adaptive Conformal Prediction Using Self-Supervised Learning"
+    authors: "Nabeel Seedat<sup>‡</sup>, Alan Jeffares<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
+    paper_pdf: "https://arxiv.org/abs/2302.12238"
+    selected: y
+    preprint: n
+
   - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
     authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2202.02096"
+    selected: y
+    preprint: n
+
+  - title: "SurvivalGAN: Generating Time-to-Event Data for Survival Analysis"
+    authors: "Alexander Norcliffe<sup>‡</sup>, Bogdan Cebere<sup>‡</sup>, <b>Fergus Imrie</b>, Pietro Lio, Mihaela van der Schaar"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
+    paper_pdf: "https://arxiv.org/abs/2302.12749"
     selected: y
     preprint: n
   
