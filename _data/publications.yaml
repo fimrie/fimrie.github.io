@@ -1,4 +1,11 @@
 papers:
+  - title: "Machine Learning with Requirements: A Manifesto"
+    authors: "Eleonora Giunchiglia, <b>Fergus Imrie</b>, Mihaela van der Schaar, Thomas Lukasiewicz"
+    venue: "arXiv (Preprint). 2023."
+    paper_pdf: "https://arxiv.org/abs/2304.03674"
+    selected: n
+    preprint: y
+    
   - title: "Testing the Limits of SMILES-based De Novo Molecular Generation with Curriculum and Deep Reinforcement Learning"
     authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
     venue: "Nature Machine Intelligence. 2023."
