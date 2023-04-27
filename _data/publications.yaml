@@ -1,4 +1,11 @@
 papers:
+  - title: "Differentiable and Transportable Structure Learning"
+    authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "International Conference on Machine Learning (ICML). 2023."
+    paper_pdf: "https://arxiv.org/abs/2206.06354"
+    selected: y
+    preprint: n
+
   - title: "Machine Learning with Requirements: A Manifesto"
     authors: "Eleonora Giunchiglia, <b>Fergus Imrie</b>, Mihaela van der Schaar, Thomas Lukasiewicz"
     venue: "arXiv (Preprint). 2023."
@@ -60,13 +67,6 @@ papers:
     venue: "Neural Information Processing Systems (NeurIPS). 2022."
     paper_pdf: "https://openreview.net/forum?id=-9PV7GKwYpM"
     selected: y
-
-  - title: "Differentiable and Transportable Structure Learning"
-    authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2022."
-    paper_pdf: "https://arxiv.org/abs/2206.06354"
-    selected: n
-    preprint: y
 
   - title: "Continuous-Time Modeling of Counterfactual Outcomes Using Neural Controlled Differential Equations"
     authors: "Nabeel Seedat<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alexis Bellot, Zhaozhi Qian, Mihaela van der Schaar"
