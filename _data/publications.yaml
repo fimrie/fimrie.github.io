@@ -61,6 +61,13 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2210.12090"
     selected: y
     preprint: y
+    
+  - title: "DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems"
+    authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "arXiv (Preprint). 2022."
+    paper_pdf: "https://arxiv.org/abs/2211.05764"
+    selected: n
+    preprint: y
 
   - title: "Composite Feature Selection using Deep Ensembles"
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Alexander Norcliffe<sup>‡</sup>, Pietro Lio, Mihaela van der Schaar"
