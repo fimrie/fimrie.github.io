@@ -1,4 +1,11 @@
 papers:
+  - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
+    authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
+    venue: "PLOS Digital Health. 2023."
+    paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000276"
+    selected: y
+    preprint: n
+
   - title: "Differentiable and Transportable Structure Learning"
     authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2023."
@@ -54,13 +61,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2302.12749"
     selected: y
     preprint: n
-  
-  - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
-    authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2022."
-    paper_pdf: "https://arxiv.org/abs/2210.12090"
-    selected: y
-    preprint: y
     
   - title: "DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
