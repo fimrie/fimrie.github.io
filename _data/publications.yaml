@@ -1,4 +1,11 @@
 papers:
+  - title: "Multiple stakeholders drive diverse interpretability requirements for machine learning in healthcare"
+    authors: "<b>Fergus Imrie</b>, Robert Davis, Mihaela van der Schaar"
+    venue: "Nature Machine Intelligence. 2023."
+    paper_pdf: "https://www.nature.com/articles/s42256-023-00698-2"
+    selected: y
+    preprint: n
+
   - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
     authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
     venue: "PLOS Digital Health. 2023."
