@@ -1,4 +1,10 @@
 papers:
+  - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
+    authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "Neural Information Processing Systems (NeurIPS). 2023."
+    selected: n
+    preprint: n
+    
   - title: "Multiple stakeholders drive diverse interpretability requirements for machine learning in healthcare"
     authors: "<b>Fergus Imrie</b>, Robert Davis, Mihaela van der Schaar"
     venue: "Nature Machine Intelligence. 2023."
