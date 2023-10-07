@@ -1,4 +1,11 @@
 papers:
+  - title: "Assessing eligibility for lung cancer screening using parsimonious ensemble machine learning models: A development and validation study"
+    authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
+    venue: "PLOS Medicine. 2023."
+    paper_pdf: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287"
+    selected: y
+    preprint: n
+    
   - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2023."
@@ -13,7 +20,7 @@ papers:
     preprint: n
 
   - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
-    authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F. McKinney, Mihaela van der Schaar"
+    authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F McKinney, Mihaela van der Schaar"
     venue: "PLOS Digital Health. 2023."
     paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000276"
     selected: y
@@ -39,13 +46,6 @@ papers:
     paper_pdf: "https://www.nature.com/articles/s42256-023-00636-2"
     selected: y
     preprint: n
-
-  - title: "Assessing eligibility for lung cancer screening: Parsimonious multi-country ensemble machine learning models for lung cancer prediction"
-    authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
-    venue: "medRxiv (Preprint). 2023."
-    paper_pdf: "https://www.medrxiv.org/content/10.1101/2023.01.27.23284974v1"
-    selected: n
-    preprint: y
 
   - title: "TANGOS: Regularizing Tabular Neural Networks through Gradient Orthogonalization and Specialization"
     authors: "Alan Jeffares<sup>‡</sup>, Tennison Liu<sup>‡</sup>, Jonathan Crabbé, <b>Fergus Imrie</b>, Mihaela van der Schaar"
