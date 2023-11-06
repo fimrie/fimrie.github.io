@@ -16,6 +16,7 @@ papers:
   - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2023."
+    paper_pdf: "https://arxiv.org/abs/2310.16524"
     selected: n
     preprint: n
     
