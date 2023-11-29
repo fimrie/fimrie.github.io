@@ -1,4 +1,11 @@
 papers:
+  - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
+    authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
+    venue: "arXiv (Preprint). 2023."
+    paper_pdf: "https://arxiv.org/abs/2311.16026"
+    selected: n
+    preprint: y
+  
   - title: "Redefining Digital Health Interfaces with Large Language Models"
     authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
     venue: "arXiv (Preprint). 2023."
@@ -17,7 +24,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2023."
     paper_pdf: "https://arxiv.org/abs/2310.16524"
-    selected: n
+    selected: y
     preprint: n
     
   - title: "Multiple stakeholders drive diverse interpretability requirements for machine learning in healthcare"
