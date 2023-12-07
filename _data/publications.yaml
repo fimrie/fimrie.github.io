@@ -1,4 +1,11 @@
 papers:
+  - title: "DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems"
+    authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "IEEE Transactions on Artificial Intelligence (Accepted)."
+    paper_pdf: "https://arxiv.org/abs/2211.05764"
+    selected: n
+    preprint: y
+
   - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
     authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
     venue: "arXiv (Preprint). 2023."
@@ -89,13 +96,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2302.12749"
     selected: y
     preprint: n
-    
-  - title: "DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems"
-    authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2022."
-    paper_pdf: "https://arxiv.org/abs/2211.05764"
-    selected: n
-    preprint: y
 
   - title: "Composite Feature Selection using Deep Ensembles"
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Alexander Norcliffe<sup>‡</sup>, Pietro Lio, Mihaela van der Schaar"
