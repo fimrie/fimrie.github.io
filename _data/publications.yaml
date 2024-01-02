@@ -1,8 +1,8 @@
 papers:
-  - title: "DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems"
+  - title: "Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "IEEE Transactions on Artificial Intelligence (Accepted)."
-    paper_pdf: "https://arxiv.org/abs/2211.05764"
+    venue: "IEEE Transactions on Artificial Intelligence."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
     selected: n
     preprint: n
 
