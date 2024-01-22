@@ -3,7 +3,7 @@ papers:
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "IEEE Transactions on Artificial Intelligence."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
-    selected: n
+    selected: y
     preprint: n
 
   - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
