@@ -26,6 +26,13 @@ papers:
     paper_pdf: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287"
     selected: y
     preprint: n
+
+  - title: "Novel Preoperative Risk Stratification using Digital Phenotyping Applying a Scalable Machine Learning Approach"
+    authors: "Pascal Laferriere-Lanlgois, <b>Fergus Imrie</b>, Marc-Andre Geraldo, Theodora Wingert, Nadia Lahrichi, Mihaela van der Schaar, Maxime Cannesson"
+    venue: "Anesthesia & Analgesia. 2023."
+    paper_pdf: "https://journals.lww.com/anesthesia-analgesia/abstract/9900/novel_preoperative_risk_stratification_using.672.aspx"
+    selected: n
+    preprint: n 
     
   - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
