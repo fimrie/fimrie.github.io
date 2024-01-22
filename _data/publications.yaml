@@ -1,7 +1,7 @@
 papers:
   - title: "Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "IEEE Transactions on Artificial Intelligence."
+    venue: "IEEE Transactions on Artificial Intelligence. 2023."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
     selected: y
     preprint: n
