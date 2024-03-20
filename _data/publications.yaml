@@ -1,17 +1,24 @@
 papers:
+  - title: "Dissecting Sample Hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI"
+    authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "International Conference on Learning Representations (ICLR). 2024."
+    paper_pdf: "https://openreview.net/forum?id=icTZCUbtD6"
+    selected: y
+    preprint: n
+
+  - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
+    authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
+    venue: "International Conference on Learning Representations (ICLR). 2024."
+    paper_pdf: "https://arxiv.org/abs/2311.16026"
+    selected: y
+    preprint: n
+
   - title: "Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "IEEE Transactions on Artificial Intelligence. 2023."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
     selected: y
     preprint: n
-
-  - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
-    authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2023."
-    paper_pdf: "https://arxiv.org/abs/2311.16026"
-    selected: n
-    preprint: y
   
   - title: "Redefining Digital Health Interfaces with Large Language Models"
     authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
