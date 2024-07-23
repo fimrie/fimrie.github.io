@@ -1,9 +1,9 @@
 papers:
   - title: "You Can't Handle The (Dirty) Truth: Data-Centric Insights Improve Pseudo-Labeling"
     authors: "Nabeel Seedat<sup>‡</sup>, Nicolas Huynh<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "DMLR Workshop @ International Conference on Learning Representations (ICLR). 2024."
-    paper_pdf: "https://openreview.net/pdf?id=6IKH76T2cW"
-    selected: n
+    venue: "Journal of Data-Centric Machine Learning Research. 2024."
+    paper_pdf: "https://data.mlr.press/assets/pdf/v01-10.pdf"
+    selected: y
     preprint: n
   
   - title: "Dissecting Sample Hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI"
