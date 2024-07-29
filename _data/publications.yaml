@@ -1,4 +1,11 @@
 papers:
+  - title: "Automated Ensemble Multimodal Machine Learning for Healthcare"
+    authors: "<b>Fergus Imrie<sup>‡</sup></b>, Stefan Denner<sup>‡</sup>, Lucas S Brunschwig, Klaus Maier-Hein, Mihaela van der Schaar"
+    venue: "arXiv (Preprint). 2024."
+    paper_pdf: "https://arxiv.org/abs/2407.18227"
+    selected: n
+    preprint: y
+    
   - title: "You Can't Handle The (Dirty) Truth: Data-Centric Insights Improve Pseudo-Labeling"
     authors: "Nabeel Seedat<sup>‡</sup>, Nicolas Huynh<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Journal of Data-Centric Machine Learning Research. 2024."
@@ -20,10 +27,24 @@ papers:
     selected: y
     preprint: n
 
+  - title: "Machine Learning with Requirements: A Manifesto"
+    authors: "Eleonora Giunchiglia, <b>Fergus Imrie</b>, Mihaela van der Schaar, Thomas Lukasiewicz"
+    venue: "Neurosymbolic Artificial Intelligence. 2024."
+    paper_pdf: "https://neurosymbolic-ai-journal.com/system/files/nai-paper-767.pdf"
+    selected: n
+    preprint: n
+
   - title: "Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "IEEE Transactions on Artificial Intelligence. 2023."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
+    selected: y
+    preprint: n
+
+  - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
+    authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
+    venue: "Neural Information Processing Systems (NeurIPS). 2023."
+    paper_pdf: "https://arxiv.org/abs/2310.16524"
     selected: y
     preprint: n
   
@@ -48,13 +69,6 @@ papers:
     selected: n
     preprint: n 
     
-  - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
-    authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
-    venue: "Neural Information Processing Systems (NeurIPS). 2023."
-    paper_pdf: "https://arxiv.org/abs/2310.16524"
-    selected: y
-    preprint: n
-    
   - title: "Multiple stakeholders drive diverse interpretability requirements for machine learning in healthcare"
     authors: "<b>Fergus Imrie</b>, Robert Davis, Mihaela van der Schaar"
     venue: "Nature Machine Intelligence. 2023."
@@ -75,13 +89,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2206.06354"
     selected: y
     preprint: n
-
-  - title: "Machine Learning with Requirements: A Manifesto"
-    authors: "Eleonora Giunchiglia, <b>Fergus Imrie</b>, Mihaela van der Schaar, Thomas Lukasiewicz"
-    venue: "arXiv (Preprint). 2023."
-    paper_pdf: "https://arxiv.org/abs/2304.03674"
-    selected: n
-    preprint: y
     
   - title: "Testing the Limits of SMILES-based De Novo Molecular Generation with Curriculum and Deep Reinforcement Learning"
     authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
