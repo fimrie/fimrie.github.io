@@ -3,7 +3,7 @@ papers:
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Stefan Denner<sup>‡</sup>, Lucas S Brunschwig, Klaus Maier-Hein, Mihaela van der Schaar"
     venue: "arXiv (Preprint). 2024."
     paper_pdf: "https://arxiv.org/abs/2407.18227"
-    selected: n
+    selected: y
     preprint: y
     
   - title: "You Can't Handle The (Dirty) Truth: Data-Centric Insights Improve Pseudo-Labeling"
