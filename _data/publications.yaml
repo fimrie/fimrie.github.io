@@ -1,10 +1,10 @@
 papers:
   - title: "Automated Ensemble Multimodal Machine Learning for Healthcare"
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Stefan Denner<sup>‡</sup>, Lucas S Brunschwig, Klaus Maier-Hein, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2024."
-    paper_pdf: "https://arxiv.org/abs/2407.18227"
+    venue: "IEEE Journal of Biomedical and Health Informatics. 2025."
+    paper_pdf: "https://ieeexplore.ieee.org/document/10842455"
     selected: y
-    preprint: y
+    preprint: n
     
   - title: "You Can't Handle The (Dirty) Truth: Data-Centric Insights Improve Pseudo-Labeling"
     authors: "Nabeel Seedat<sup>‡</sup>, Nicolas Huynh<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
