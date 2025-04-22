@@ -1,4 +1,11 @@
 papers:
+  - title: "MolSnapper: Conditioning Diffusion for Structure-Based Drug Design"
+    authors: "Yael Ziv, <b>Fergus Imrie</b>, Brian Marsden, Charlotte M. Deane"
+    venue: "Journal of Chemical Information and Modeling. 2025."
+    paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.4c02008"
+    selected: y
+    preprint: n
+  
   - title: "Automated Ensemble Multimodal Machine Learning for Healthcare"
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Stefan Denner<sup>‡</sup>, Lucas S Brunschwig, Klaus Maier-Hein, Mihaela van der Schaar"
     venue: "IEEE Journal of Biomedical and Health Informatics. 2025."
