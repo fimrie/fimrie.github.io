@@ -1,4 +1,10 @@
 papers:
+  - title: "Stochastic Encodings for Active Feature Acquisition"
+    authors: "Alexander Norcliffe, Changhee Lee, <b>Fergus Imrie</b>, Mihaela van der Schaar, Pietro Lio"
+    venue: "International Conference on Machine Learning. 2025."
+    selected: n
+    preprint: n
+
   - title: "MolSnapper: Conditioning Diffusion for Structure-Based Drug Design"
     authors: "Yael Ziv, <b>Fergus Imrie</b>, Brian Marsden, Charlotte M. Deane"
     venue: "Journal of Chemical Information and Modeling. 2025."
@@ -185,7 +191,6 @@ papers:
     venue: "Artificial Intelligence in Drug Discovery (Book Chapter). 2020."
     paper_pdf: "https://pubs.rsc.org/en/content/chapter/bk9781788015479-00151/978-1-78801-684-1"
     selected: n
-
 
   - title: "Deep Generative Models for 3D Linker Design"
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
