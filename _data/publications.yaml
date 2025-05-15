@@ -1,4 +1,11 @@
 papers:
+  - title: "Assessing the Chemical Intelligence of Large Language Models"
+    authors: "Nicholas T. Runcie, Charlotte M. Deane, <b>Fergus Imrie</b>"
+    venue: "arXiv (preprint). 2025."
+    paper_pdf: "https://arxiv.org/abs/2505.07735"
+    selected: y
+    preprint: y
+  
   - title: "Stochastic Encodings for Active Feature Acquisition"
     authors: "Alexander Norcliffe, Changhee Lee, <b>Fergus Imrie</b>, Mihaela van der Schaar, Pietro Lio"
     venue: "International Conference on Machine Learning. 2025."
