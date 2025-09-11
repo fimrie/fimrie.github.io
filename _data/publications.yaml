@@ -16,6 +16,7 @@ papers:
   - title: "Stochastic Encodings for Active Feature Acquisition"
     authors: "Alexander Norcliffe, Changhee Lee, <b>Fergus Imrie</b>, Mihaela van der Schaar, Pietro Lio"
     venue: "International Conference on Machine Learning (ICML). 2025."
+    paper_pdf: "https://arxiv.org/abs/2508.01957"
     selected: n
     preprint: n
 
