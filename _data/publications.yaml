@@ -5,6 +5,13 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2505.07735"
     selected: y
     preprint: y
+
+  - title: "Redefining Digital Health Interfaces with Large Language Models"
+    authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
+    venue: "Frontiers in Artificial Intelligence. 2025."
+    paper_pdf: "https://arxiv.org/abs/2310.03560"
+    selected: n
+    preprint: n
   
   - title: "Stochastic Encodings for Active Feature Acquisition"
     authors: "Alexander Norcliffe, Changhee Lee, <b>Fergus Imrie</b>, Mihaela van der Schaar, Pietro Lio"
@@ -67,13 +74,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2310.16524"
     selected: y
     preprint: n
-  
-  - title: "Redefining Digital Health Interfaces with Large Language Models"
-    authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
-    venue: "arXiv (Preprint). 2023."
-    paper_pdf: "https://arxiv.org/abs/2310.03560"
-    selected: n
-    preprint: y
 
   - title: "Assessing eligibility for lung cancer screening using parsimonious ensemble machine learning models: A development and validation study"
     authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
