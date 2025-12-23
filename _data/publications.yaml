@@ -1,10 +1,10 @@
 papers:
   - title: "Assessing the Chemical Intelligence of Large Language Models"
     authors: "Nicholas T. Runcie, Charlotte M. Deane, <b>Fergus Imrie</b>"
-    venue: "arXiv (preprint). 2025."
-    paper_pdf: "https://arxiv.org/abs/2505.07735"
+    venue: "Journal of Chemical Information and Modeling. 2025."
+    paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.5c02145"
     selected: y
-    preprint: y
+    preprint: n
 
   - title: "Redefining Digital Health Interfaces with Large Language Models"
     authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
