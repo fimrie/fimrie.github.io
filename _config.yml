@@ -1,9 +1,9 @@
 title: Fergus Imrie
-email: imrie@ucla.edu
+email: fergus.imrie@stats.ox.ac.uk
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://fimrie.github.io # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  fimrie
+github_username: fimrie
 
 # Build settings
 theme: minima
