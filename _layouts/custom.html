@@ -5,14 +5,14 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Fergus Imrie">
-  <meta name="author" content="Fergus Imrie & Martin Saveski">
-  <meta property="og:title" content="Fergus Imrie" />
+  <title>{% if page.title %}{{ site.data.main_info.name }} | {{ page.title }}{% else %}{{ site.data.main_info.name }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.data.main_info.name }}">
+  <meta property="og:title" content="{% if page.title %}{{ site.data.main_info.name }} | {{ page.title }}{% else %}{{ site.data.main_info.name }}{% endif %}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://fimrie.github.io" />
-  <meta property="og:site_name" content="Fergus Imrie" />
-  <link rel="canonical" href="http://fimrie.github.io" />
+  <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}" />
+  <meta property="og:site_name" content="{{ site.data.main_info.name }}" />
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
