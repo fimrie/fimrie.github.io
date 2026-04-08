@@ -1,55 +1,54 @@
 # Fergus Imrie's Website
-Credit for template to Martin Saveski.
 
+Personal website built with Jekyll, based on a template by Martin Saveski.
 
-## How to update
+## Local setup
 
-1. Make changes.
+This repo uses Jekyll via Bundler.
 
-2. Test changes with:
+If Ruby is not available system-wide, create a local conda environment:
+
+```bash
+conda create -n fimrie-site -c conda-forge ruby=3.2 compilers pkg-config -y
+conda activate fimrie-site
+gem install bundler
 ```
+
+Install project dependencies:
+
+```bash
+bundle install
+```
+
+## Run locally
+
+Serve the site with:
+
+```bash
 bundle exec jekyll serve
 ```
 
-3. Push changes to github
-```
-git add .
-git commit -m ''
-git push origin master
-```
+Jekyll will print the local URL in the terminal.
 
+## Updating the site
 
-## Updates guide
-Change one of the files in `_data`, unless you are changing the look of the website.
+Most content and layout changes live in:
 
-Test changes with:
+- `_data/`
+- `index.html`
+- `_layouts/`
+- `libs/custom/`
+
+Generated files in `_site/` should not be committed.
+
+## Deployment
+
+Push source changes to GitHub and GitHub Pages will rebuild and publish the site automatically.
+
+## Dependency updates
+
+To refresh dependencies:
+
+```bash
+bundle update
 ```
-jekyll serve
-```
-
-Push to the ML web directory:
-```
-rm -rf public_html
-mkdir public_html
-```
-```
-./__deploy.sh
-```
-
-More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
-
-**Stanford links**
-- Use fetch!
-- [Basic WWW for Individual Users](https://uit.stanford.edu/service/web/centralhosting/howto_user)
-- [AFS File Transfer](https://uit.stanford.edu/service/afs/file-transfer/macintosh)
-
-
-## External Libraries
-- Framework: [Jekyll](http://jekyllrb.com/)
-- CSS
-  - [Skeleton](getskeleton.com)
-  - Tabs: [Skeleton Tabs](https://github.com/nathancahill/skeleton-tabs)
-  - Experience: [Timeline](https://codepen.io/NilsWe/pen/FemfK)
-  - Icons: [Font Awesome](http://fontawesome.io/)
-- JS
-  - [Jquery (3.1.1)](https://jquery.com/)
