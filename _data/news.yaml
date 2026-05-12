@@ -1,5 +1,9 @@
 items:
   - date: "2026/05"
+    text: "I have been appointed as an Associate Professor of Statistics in the Department of Statistics at the University of Oxford."
+    archived: n
+
+  - date: "2026/05"
     text: "New preprint on molecular representations for large language models now online."
     links:
       - label: "Preprint"
