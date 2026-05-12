@@ -103,6 +103,10 @@
               <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>
+
+              <span onclick="window.open('{{ site.data.main_info.orcid }}')" style="cursor: pointer">
+                <i class="ai ai-orcid ai-lg" aria-hidden="true"></i>
+              </span>
             </p>
         </div>
       </div>
@@ -113,7 +117,8 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>About Me</a></li>
-	  <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#opportunities" | prepend: site.baseurl }}>Opportunities</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <!--
 		  <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
@@ -145,6 +150,9 @@
           </span>
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
             <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('{{ site.data.main_info.orcid }}')" style="cursor: pointer">
+            <i class="ai ai-orcid ai-lg" aria-hidden="true"></i>
           </span>
         </div>
       </div>

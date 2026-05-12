@@ -1,0 +1,216 @@
+items:
+  - date: "2026/05"
+    text: "New preprint on molecular representations for large language models now online."
+    links:
+      - label: "Preprint"
+        url: "https://arxiv.org/abs/2605.01822"
+    archived: n
+
+  - date: "2026/03"
+    text: "New preprint on training diffusion-based docking models with reinforcement learning to improve physical validity now online."
+    links:
+      - label: "Preprint"
+        url: "https://www.biorxiv.org/content/10.64898/2026.03.25.714128v1"
+    archived: n
+
+  - date: "2025/12"
+    text: "ChemIQ, our benchmark to assess the chemical intelligence of large language models, was published in the Journal of Chemical Information and Modeling."
+    links:
+      - label: "Paper"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jcim.5c02145"
+    archived: n
+
+  - date: "2025/09"
+    text: "Our paper using agentic large language models as novel interfaces for digital health tools was accepted in Frontiers in Artificial Intelligence."
+    links:
+      - label: "Journal"
+        url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1623339/full"
+    archived: n
+
+  - date: "2025/06"
+    text: "The OpenBind Consortium received an £8m grant from the UK Sovereign AI Unit (DSIT) to power the next era of AI/ML for drug discovery."
+    links:
+      - label: "Link"
+        url: "https://openbind.uk/"
+    archived: n
+
+  - date: "2025/05"
+    text: "We released ChemIQ, our new benchmark to assess the chemical intelligence of large language models. Updated with additional LLMs in July 2025."
+    links:
+      - label: "Preprint"
+        url: "https://arxiv.org/abs/2505.07735"
+    archived: n
+
+  - date: "2025/04"
+    text: "MolSnapper, a method for conditioning diffusion models for structure-based drug design, was accepted by the Journal of Chemical Information and Modeling."
+    links:
+      - label: "Paper"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jcim.4c02008"
+    archived: n
+
+  - date: "2025/01"
+    text: "AutoPrognosis-Multimodal, our multimodal AutoML framework integrating imaging and tabular data, was accepted by IEEE Journal of Biomedical and Health Informatics."
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/document/10842455"
+    archived: n
+
+  - date: "2024/06"
+    text: "I joined the Department of Statistics, University of Oxford as a Florence Nightingale Bicentenary Fellow."
+    links:
+      - label: "Department Webpage"
+        url: "https://www.stats.ox.ac.uk/people/dr-fergus-imrie"
+    archived: n
+
+  - date: "2024/06"
+    text: "Our paper on data-centric pseudo-labeling was published in the Journal of Data-Centric Machine Learning Research."
+    links:
+      - label: "Paper"
+        url: "https://data.mlr.press/assets/pdf/v01-10.pdf"
+    archived: n
+
+  - date: "2024/01"
+    text: "Two papers accepted at ICLR 2024 on causal sensitivity analysis and data-centric AI."
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2311.16026.pdf"
+      - label: "Paper"
+        url: "https://openreview.net/pdf?id=icTZCUbtD6"
+    archived: y
+
+  - date: "2023/12"
+    text: "DC-Check, a checklist-style framework for data-centric AI, was published in IEEE Transactions on Artificial Intelligence."
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/abstract/document/10372382"
+    archived: y
+
+  - date: "2023/10"
+    text: "Our paper developing parsimonious risk scores for lung cancer was published in PLOS Medicine."
+    links:
+      - label: "Paper"
+        url: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287"
+    archived: y
+
+  - date: "2023/09"
+    text: "Our paper on model evaluation with synthetic test data was accepted at NeurIPS 2023."
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2310.16524"
+    archived: y
+
+  - date: "2023/09"
+    text: "We welcomed more than 300 participants to the CCAIM AI and Machine Learning Summer School."
+    links:
+      - label: "Website"
+        url: "https://ccaim.cam.ac.uk/summer-school/"
+    archived: y
+
+  - date: "2023/08"
+    text: "Our perspective on explainable AI in healthcare was published in Nature Machine Intelligence."
+    links:
+      - label: "Paper"
+        url: "https://www.nature.com/articles/s42256-023-00698-2"
+    archived: y
+
+  - date: "2023/06"
+    text: "AutoPrognosis 2.0, our AutoML framework for diagnostic and prognostic modeling, was published in PLOS Digital Health."
+    links:
+      - label: "Paper"
+        url: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000276"
+      - label: "Software"
+        url: "https://github.com/vanderschaarlab/AutoPrognosis"
+      - label: "Website"
+        url: "https://www.autoprognosis.vanderschaar-lab.com/"
+    archived: y
+
+  - date: "2023/04"
+    text: "Our paper on transportable structure learning was accepted at ICML 2023."
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2206.06354"
+    archived: y
+
+  - date: "2023/04"
+    text: "Our paper on molecular optimisation with curriculum learning and deep reinforcement learning was published in Nature Machine Intelligence."
+    links:
+      - label: "Paper"
+        url: "https://www.nature.com/articles/s42256-023-00636-2"
+    archived: y
+
+  - date: "2023/01"
+    text: "Our paper on regularizing neural networks using neural attributions was accepted at ICLR 2023."
+    links:
+      - label: "Paper"
+        url: "https://openreview.net/pdf?id=n6H86gW8u0d"
+    archived: y
+
+  - date: "2023/01"
+    text: "Three papers accepted at AISTATS 2023 on self-supervised conformal prediction, imputation in treatment effect estimation, and synthetic data for survival analysis."
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2302.12238"
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2202.02096"
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2302.12749"
+    archived: y
+
+  - date: "2022/10"
+    text: "We released AutoPrognosis 2.0, our AutoML framework for diagnostic and prognostic modeling."
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2210.12090"
+      - label: "Software"
+        url: "https://github.com/vanderschaarlab/AutoPrognosis"
+      - label: "Website"
+        url: "https://www.autoprognosis.vanderschaar-lab.com/"
+    archived: y
+
+  - date: "2022/09"
+    text: "Our paper on composite feature selection was accepted at NeurIPS 2022."
+    links:
+      - label: "Paper"
+        url: "https://openreview.net/forum?id=-9PV7GKwYpM"
+    archived: y
+
+  - date: "2022/05"
+    text: "Our paper on treatment effect estimation was accepted by ICML 2022."
+    links:
+      - label: "Paper"
+        url: "https://proceedings.mlr.press/v162/seedat22b.html"
+    archived: y
+
+  - date: "2022/02"
+    text: "I gave a tutorial on time series in healthcare at AAAI-22."
+    links:
+      - label: "Video"
+        url: "https://www.youtube.com/watch?v=qZI8VBN-mMc"
+      - label: "Website"
+        url: "https://www.vanderschaar-lab.com/aaai-22-time-series-tutorial/"
+      - label: "Slides"
+        url: "https://vanderschaar-lab.com/papers/2022_AAAI_tutorial_web.pdf"
+    archived: y
+
+  - date: "2022/01"
+    text: "Our paper on self-supervised feature selection was accepted by ICLR 2022."
+    links:
+      - label: "Paper"
+        url: "https://openreview.net/pdf?id=oDFvtxzPOx"
+    archived: y
+
+  - date: "2021/10"
+    text: "Our paper on molecular design with pharmacophoric constraints was published in Chemical Science."
+    links:
+      - label: "Paper"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2021/SC/D1SC02436A"
+    archived: y
+
+  - date: "2021/09"
+    text: "Two papers accepted to NeurIPS 2021 on interpretability and understanding decision-making."
+    links:
+      - label: "Paper"
+        url: "https://proceedings.neurips.cc/paper/2021/file/65658fde58ab3c2b6e5132a39fae7cb9-Paper.pdf"
+      - label: "Paper"
+        url: "https://proceedings.neurips.cc/paper/2021/file/c344336196d5ec19bd54fd14befdde87-Paper.pdf"
+    archived: y
