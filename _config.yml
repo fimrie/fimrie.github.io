@@ -1,6 +1,6 @@
 title: Fergus Imrie
 email: fergus.imrie@stats.ox.ac.uk
-description: "Personal website of Fergus Imrie, Associate Professor of Statistics at the University of Oxford. Research in machine learning for medicine and drug discovery."
+description: "Personal website of Fergus Imrie, Associate Professor of Statistics at the University of Oxford and Hugh Price Fellow at Jesus College, Oxford. Research in machine learning for medicine and drug discovery."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://fimrie.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username: fimrie
