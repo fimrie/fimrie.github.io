@@ -59,14 +59,14 @@ papers:
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2024."
     paper_pdf: "https://openreview.net/forum?id=icTZCUbtD6"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
     authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2024."
     paper_pdf: "https://arxiv.org/abs/2311.16026"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "Machine Learning with Requirements: A Manifesto"
@@ -80,7 +80,7 @@ papers:
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "IEEE Transactions on Artificial Intelligence. 2023."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
@@ -122,21 +122,21 @@ papers:
     authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2023."
     paper_pdf: "https://arxiv.org/abs/2206.06354"
-    selected: y
+    selected: n
     preprint: n
     
   - title: "Testing the Limits of SMILES-based De Novo Molecular Generation with Curriculum and Deep Reinforcement Learning"
     authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
     venue: "Nature Machine Intelligence. 2023."
     paper_pdf: "https://www.nature.com/articles/s42256-023-00636-2"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "TANGOS: Regularizing Tabular Neural Networks through Gradient Orthogonalization and Specialization"
     authors: "Alan Jeffares<sup>‡</sup>, Tennison Liu<sup>‡</sup>, Jonathan Crabbé, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2023."
     paper_pdf: "https://openreview.net/pdf?id=n6H86gW8u0d"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "Improving Adaptive Conformal Prediction Using Self-Supervised Learning"
@@ -150,14 +150,14 @@ papers:
     authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2202.02096"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "SurvivalGAN: Generating Time-to-Event Data for Survival Analysis"
     authors: "Alexander Norcliffe<sup>‡</sup>, Bogdan Cebere<sup>‡</sup>, <b>Fergus Imrie</b>, Pietro Lio, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2302.12749"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "Composite Feature Selection using Deep Ensembles"
@@ -194,7 +194,7 @@ papers:
     authors: "Yuchao Qin<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alihan Hüyük, Daniel Jarrett, Alexander Gimson, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021."
     paper_pdf: "https://papers.nips.cc/paper/2021/file/c344336196d5ec19bd54fd14befdde87-Paper.pdf"
-    selected: y
+    selected: n
 
   - title: "Deep generative design with 3D pharmacophoric constraints"
     authors: "<b>Fergus Imrie</b>, Thomas E Hadfield, Anthony R Bradley, Charlotte M Deane"
