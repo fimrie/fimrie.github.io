@@ -41,6 +41,14 @@ Most content and layout changes live in:
 
 Generated files in `_site/` should not be committed.
 
+Publication entries in `_data/publications.yaml` use `publication_type` to control
+category tabs. Allowed values are:
+
+- `preprint`
+- `journal`
+- `ml_conference`
+- `book_chapter`
+
 ## Deployment
 
 Push source changes to GitHub and GitHub Pages will rebuild and publish the site automatically.

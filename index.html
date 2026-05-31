@@ -64,6 +64,8 @@ title: Home
     <li><div class="button active" data-ref="#papers-selected">Highlights</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
     <li><div class="button" data-ref="#papers-preprints">Preprints</div></li>
+    <li><div class="button" data-ref="#papers-journals">Journals</div></li>
+    <li><div class="button" data-ref="#papers-ml-conferences">ML Conferences</div></li>
   </ul>
 
   <div class="tab-content">
@@ -81,8 +83,22 @@ title: Home
     </div>
 
     <div class="tab-pane" id="papers-preprints">
-      {% assign selected_papers = site.data.publications.papers | where: "preprint", "y" %}
+      {% assign selected_papers = site.data.publications.papers | where: "publication_type", "preprint" %}
       {% for paper in selected_papers %}
+        {% include paper.html %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-journals">
+      {% assign journal_papers = site.data.publications.papers | where: "publication_type", "journal" %}
+      {% for paper in journal_papers %}
+        {% include paper.html %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-ml-conferences">
+      {% assign ml_conference_papers = site.data.publications.papers | where: "publication_type", "ml_conference" %}
+      {% for paper in ml_conference_papers %}
         {% include paper.html %}
       {% endfor %}
     </div>

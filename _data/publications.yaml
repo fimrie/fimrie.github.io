@@ -4,224 +4,235 @@ papers:
     venue: "arXiv (preprint). 2026."
     paper_pdf: "https://arxiv.org/abs/2605.01822"
     selected: y
-    preprint: y
+    publication_type: preprint
 
   - title: "Teaching Diffusion Models Physics: Reinforcement Learning for Physically Valid Diffusion-Based Docking"
     authors: "J. Henry Broster, Bojana Popovic, Diana Kondinskaia, Charlotte M. Deane, <b>Fergus Imrie</b>"
     venue: "bioRxiv (preprint). 2026."
     paper_pdf: "https://www.biorxiv.org/content/10.64898/2026.03.25.714128v1"
     selected: y
-    preprint: y
+    publication_type: preprint
     
   - title: "Assessing the Chemical Intelligence of Large Language Models"
     authors: "Nicholas T. Runcie, Charlotte M. Deane, <b>Fergus Imrie</b>"
     venue: "Journal of Chemical Information and Modeling. 2025."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.5c02145"
     selected: y
-    preprint: n
+    publication_type: journal
 
   - title: "Redefining Digital Health Interfaces with Large Language Models"
     authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
     venue: "Frontiers in Artificial Intelligence. 2025."
     paper_pdf: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1623339/full"
     selected: n
-    preprint: n
+    publication_type: journal
   
   - title: "Stochastic Encodings for Active Feature Acquisition"
     authors: "Alexander Norcliffe, Changhee Lee, <b>Fergus Imrie</b>, Mihaela van der Schaar, Pietro Lio"
     venue: "International Conference on Machine Learning (ICML). 2025."
     paper_pdf: "https://arxiv.org/abs/2508.01957"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "MolSnapper: Conditioning Diffusion for Structure-Based Drug Design"
     authors: "Yael Ziv, <b>Fergus Imrie</b>, Brian Marsden, Charlotte M. Deane"
     venue: "Journal of Chemical Information and Modeling. 2025."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.4c02008"
     selected: y
-    preprint: n
+    publication_type: journal
   
   - title: "Automated Ensemble Multimodal Machine Learning for Healthcare"
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Stefan Denner<sup>‡</sup>, Lucas S Brunschwig, Klaus Maier-Hein, Mihaela van der Schaar"
     venue: "IEEE Journal of Biomedical and Health Informatics. 2025."
     paper_pdf: "https://ieeexplore.ieee.org/document/10842455"
     selected: y
-    preprint: n
+    publication_type: journal
     
   - title: "You Can't Handle The (Dirty) Truth: Data-Centric Insights Improve Pseudo-Labeling"
     authors: "Nabeel Seedat<sup>‡</sup>, Nicolas Huynh<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Journal of Data-Centric Machine Learning Research. 2024."
     paper_pdf: "https://data.mlr.press/assets/pdf/v01-10.pdf"
     selected: n
-    preprint: n
+    publication_type: journal
   
   - title: "Dissecting Sample Hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2024."
     paper_pdf: "https://openreview.net/forum?id=icTZCUbtD6"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "A Neural Framework for Generalized Causal Sensitivity Analysis"
     authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2024."
     paper_pdf: "https://arxiv.org/abs/2311.16026"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "Machine Learning with Requirements: A Manifesto"
     authors: "Eleonora Giunchiglia, <b>Fergus Imrie</b>, Mihaela van der Schaar, Thomas Lukasiewicz"
     venue: "Neurosymbolic Artificial Intelligence. 2024."
     paper_pdf: "https://neurosymbolic-ai-journal.com/system/files/nai-paper-767.pdf"
     selected: n
-    preprint: n
+    publication_type: journal
 
   - title: "Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities"
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "IEEE Transactions on Artificial Intelligence. 2023."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
     selected: n
-    preprint: n
+    publication_type: journal
 
   - title: "Can you rely on your model evaluation? Improving model evaluation with synthetic test data"
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2023."
     paper_pdf: "https://arxiv.org/abs/2310.16524"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "Assessing eligibility for lung cancer screening using parsimonious ensemble machine learning models: A development and validation study"
     authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
     venue: "PLOS Medicine. 2023."
     paper_pdf: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287"
     selected: n
-    preprint: n
+    publication_type: journal
 
   - title: "Novel Preoperative Risk Stratification using Digital Phenotyping Applying a Scalable Machine Learning Approach"
     authors: "Pascal Laferriere-Lanlgois, <b>Fergus Imrie</b>, Marc-Andre Geraldo, Theodora Wingert, Nadia Lahrichi, Mihaela van der Schaar, Maxime Cannesson"
     venue: "Anesthesia & Analgesia. 2023."
     paper_pdf: "https://journals.lww.com/anesthesia-analgesia/abstract/9900/novel_preoperative_risk_stratification_using.672.aspx"
     selected: n
-    preprint: n 
+    publication_type: journal
     
   - title: "Multiple stakeholders drive diverse interpretability requirements for machine learning in healthcare"
     authors: "<b>Fergus Imrie</b>, Robert Davis, Mihaela van der Schaar"
     venue: "Nature Machine Intelligence. 2023."
     paper_pdf: "https://www.nature.com/articles/s42256-023-00698-2"
     selected: y
-    preprint: n
+    publication_type: journal
 
   - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
     authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F McKinney, Mihaela van der Schaar"
     venue: "PLOS Digital Health. 2023."
     paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000276"
     selected: y
-    preprint: n
+    publication_type: journal
 
   - title: "Differentiable and Transportable Structure Learning"
     authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2023."
     paper_pdf: "https://arxiv.org/abs/2206.06354"
     selected: n
-    preprint: n
+    publication_type: ml_conference
     
   - title: "Testing the Limits of SMILES-based De Novo Molecular Generation with Curriculum and Deep Reinforcement Learning"
     authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
     venue: "Nature Machine Intelligence. 2023."
     paper_pdf: "https://www.nature.com/articles/s42256-023-00636-2"
     selected: n
-    preprint: n
+    publication_type: journal
 
   - title: "TANGOS: Regularizing Tabular Neural Networks through Gradient Orthogonalization and Specialization"
     authors: "Alan Jeffares<sup>‡</sup>, Tennison Liu<sup>‡</sup>, Jonathan Crabbé, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2023."
     paper_pdf: "https://openreview.net/pdf?id=n6H86gW8u0d"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "Improving Adaptive Conformal Prediction Using Self-Supervised Learning"
     authors: "Nabeel Seedat<sup>‡</sup>, Alan Jeffares<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2302.12238"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
     authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2202.02096"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "SurvivalGAN: Generating Time-to-Event Data for Survival Analysis"
     authors: "Alexander Norcliffe<sup>‡</sup>, Bogdan Cebere<sup>‡</sup>, <b>Fergus Imrie</b>, Pietro Lio, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2302.12749"
     selected: n
-    preprint: n
+    publication_type: ml_conference
 
   - title: "Composite Feature Selection using Deep Ensembles"
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Alexander Norcliffe<sup>‡</sup>, Pietro Lio, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2022."
     paper_pdf: "https://openreview.net/forum?id=-9PV7GKwYpM"
     selected: y
+    publication_type: ml_conference
 
   - title: "Continuous-Time Modeling of Counterfactual Outcomes Using Neural Controlled Differential Equations"
     authors: "Nabeel Seedat<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alexis Bellot, Zhaozhi Qian, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2022."
     paper_pdf: "https://proceedings.mlr.press/v162/seedat22b.html"
     selected: n
+    publication_type: ml_conference
 
   - title: "Incorporating Target-Specific Pharmacophoric Information into Deep Generative Models for Fragment Elaboration"
     authors: "Thomas E Hadfield, <b>Fergus Imrie</b>, Andy Merritt, Kristian Birchall, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2022."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.1c01311"
     selected: n
+    publication_type: journal
 
   - title: "Self-Supervision Enhanced Feature Selection with Correlated Gates"
     authors: "Changhee Lee<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2022. <b>[Spotlight]</b>"
     paper_pdf: "https://openreview.net/pdf?id=oDFvtxzPOx"
     selected: y
+    publication_type: ml_conference
 
   - title: "Explaining Latent Representations with a Corpus of Examples"
     authors: "Jonathan Crabbé, Zhaozhi Qian, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021. <b>[Spotlight]</b>"
     paper_pdf: "https://papers.nips.cc/paper/2021/file/65658fde58ab3c2b6e5132a39fae7cb9-Paper.pdf"
     selected: n
+    publication_type: ml_conference
   
   - title: "Closing the loop in medical decision support by understanding clinical decision-making: A case study on organ transplantation"
     authors: "Yuchao Qin<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alihan Hüyük, Daniel Jarrett, Alexander Gimson, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021."
     paper_pdf: "https://papers.nips.cc/paper/2021/file/c344336196d5ec19bd54fd14befdde87-Paper.pdf"
     selected: n
+    publication_type: ml_conference
 
   - title: "Deep generative design with 3D pharmacophoric constraints"
     authors: "<b>Fergus Imrie</b>, Thomas E Hadfield, Anthony R Bradley, Charlotte M Deane"
     venue: "Chemical Science. 2021."
     paper_pdf: "https://pubs.rsc.org/en/content/articlelanding/2021/sc/d1sc02436a"
     selected: y
+    publication_type: journal
 
   - title: "Generating property-matched decoy molecules using deep learning"
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Charlotte M Deane"
     venue: "Bioinformatics. 2021."
     paper_pdf: "https://academic.oup.com/bioinformatics/article/37/15/2134/6126797"
     selected: y
+    publication_type: journal
 
   - title: "Virtual Screening with Convolutional Neural Networks"
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Charlotte M Deane"
     venue: "Artificial Intelligence in Drug Discovery (Book Chapter). 2020."
     paper_pdf: "https://pubs.rsc.org/en/content/chapter/bk9781788015479-00151/978-1-78801-684-1"
     selected: n
+    publication_type: book_chapter
 
   - title: "Deep Generative Models for 3D Linker Design"
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2020."
     paper_pdf: "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b01120"
     selected: y
+    publication_type: journal
     
   - title: "Protein Family-Specific Models using Deep Neural Networks and Transfer Learning Improve Virtual Screening and Highlight the Need for More Data"
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2018."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.8b00350"
     selected: n
+    publication_type: journal
