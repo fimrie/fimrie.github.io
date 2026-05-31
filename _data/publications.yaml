@@ -52,7 +52,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Nicolas Huynh<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Journal of Data-Centric Machine Learning Research. 2024."
     paper_pdf: "https://data.mlr.press/assets/pdf/v01-10.pdf"
-    selected: y
+    selected: n
     preprint: n
   
   - title: "Dissecting Sample Hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI"
@@ -87,14 +87,14 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2023."
     paper_pdf: "https://arxiv.org/abs/2310.16524"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "Assessing eligibility for lung cancer screening using parsimonious ensemble machine learning models: A development and validation study"
     authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
     venue: "PLOS Medicine. 2023."
     paper_pdf: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "Novel Preoperative Risk Stratification using Digital Phenotyping Applying a Scalable Machine Learning Approach"
@@ -143,7 +143,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Alan Jeffares<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2302.12238"
-    selected: y
+    selected: n
     preprint: n
 
   - title: "To Impute or not to Impute? Missing Data in Treatment Effect Estimation"
@@ -170,7 +170,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alexis Bellot, Zhaozhi Qian, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2022."
     paper_pdf: "https://proceedings.mlr.press/v162/seedat22b.html"
-    selected: y
+    selected: n
 
   - title: "Incorporating Target-Specific Pharmacophoric Information into Deep Generative Models for Fragment Elaboration"
     authors: "Thomas E Hadfield, <b>Fergus Imrie</b>, Andy Merritt, Kristian Birchall, Charlotte M Deane"
@@ -188,7 +188,7 @@ papers:
     authors: "Jonathan Crabbé, Zhaozhi Qian, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021. <b>[Spotlight]</b>"
     paper_pdf: "https://papers.nips.cc/paper/2021/file/65658fde58ab3c2b6e5132a39fae7cb9-Paper.pdf"
-    selected: y
+    selected: n
   
   - title: "Closing the loop in medical decision support by understanding clinical decision-making: A case study on organ transplantation"
     authors: "Yuchao Qin<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alihan Hüyük, Daniel Jarrett, Alexander Gimson, Mihaela van der Schaar"
@@ -224,4 +224,4 @@ papers:
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2018."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.8b00350"
-    selected: y
+    selected: n
