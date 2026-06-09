@@ -13,6 +13,16 @@ h4 {
 .main-description .fa {
   font-size: 22px;
   margin-top: 5px; }
+.social-links a {
+  color: inherit;
+  display: inline-block;
+  margin-right: 8px;
+  text-decoration: none; }
+.social-links a:last-child {
+  margin-right: 0; }
+.social-links a:focus,
+.social-links a:hover {
+  color: #33C3F0; }
 .paper {
   margin-bottom: 20px }
 .paper .title {
