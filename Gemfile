@@ -13,7 +13,7 @@ gem "github-pages", "~> 232", group: :jekyll_plugins
 # Security overrides for transitive dependencies flagged by Dependabot.
 gem "activesupport", ">= 7.2.3.1"
 gem "concurrent-ruby", ">= 1.3.7", "< 2.0"
-gem "faraday", ">= 2.14.2", "< 3.0"
+gem "faraday", ">= 2.14.3", "< 3.0"
 gem "nokogiri", ">= 1.19.4", "< 2.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
