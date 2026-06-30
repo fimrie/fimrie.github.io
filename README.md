@@ -9,9 +9,9 @@ This repo uses Jekyll via Bundler.
 If Ruby is not available system-wide, create a local conda environment:
 
 ```bash
-conda create -n fimrie-site -c conda-forge ruby=3.2 compilers pkg-config -y
+conda create -n fimrie-site -c conda-forge ruby=3.2 compilers pkg-config make openssl zlib libffi -y
 conda activate fimrie-site
-gem install bundler
+gem install bundler -v 4.0.10
 ```
 
 Install project dependencies:
@@ -22,10 +22,16 @@ bundle install
 
 ## Run locally
 
+Build the site once:
+
+```bash
+bundle exec jekyll build
+```
+
 Serve the site with:
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 Jekyll will print the local URL in the terminal.

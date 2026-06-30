@@ -1,6 +1,18 @@
 items:
   - date: "2026/05"
+    text: "OpenBind released its first public dataset, containing 925 crystallographic binding events from 699 compounds and affinity measurements for 601 compounds."
+    links:
+      - label: "Blog"
+        url: "https://openbind.uk/news/blog-openbinds-first-release-a-structure-affinity-dataset-for-structure-based-ai/"
+    archived: n
+
+  - date: "2026/05"
     text: "I have been appointed as an Associate Professor of Statistics in the Department of Statistics at the University of Oxford and a Hugh Price Fellow at Jesus College, Oxford."
+    links:
+      - label: "Department Webpage"
+        url: "https://www.stats.ox.ac.uk/people/fergus-imrie"
+      - label: "College Webpage"
+        url: "https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-fergus-imrie/"
     archived: n
 
   - date: "2026/05"
