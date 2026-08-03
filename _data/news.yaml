@@ -1,4 +1,11 @@
 items:
+  - date: "2026/07"
+    text: "We have released an open-source package, NISPO, for IUPAC name generation from SMILES strings."
+    links:
+      - label: "Preprint"
+        url: "https://arxiv.org/abs/2607.26113"
+    archived: n
+
   - date: "2026/05"
     text: "OpenBind released its first public dataset, containing 925 crystallographic binding events from 699 compounds and affinity measurements for 601 compounds."
     links:
@@ -76,14 +83,14 @@ items:
     links:
       - label: "Department Webpage"
         url: "https://www.stats.ox.ac.uk/people/fergus-imrie"
-    archived: n
+    archived: y
 
   - date: "2024/06"
     text: "Our paper on data-centric pseudo-labeling was published in the Journal of Data-Centric Machine Learning Research."
     links:
       - label: "Paper"
         url: "https://data.mlr.press/assets/pdf/v01-10.pdf"
-    archived: n
+    archived: y
 
   - date: "2024/01"
     text: "Two papers accepted at ICLR 2024 on causal sensitivity analysis and data-centric AI."

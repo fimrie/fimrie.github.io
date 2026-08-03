@@ -1,4 +1,11 @@
 papers:
+  - title: "NISPO: Open-source IUPAC name generation tool"
+    authors: "Nicholas T. Runcie, <b>Fergus Imrie</b>, Charlotte M. Deane"
+    venue: "arXiv (preprint). 2026."
+    paper_pdf: "https://arxiv.org/abs/2607.26113"
+    selected: y
+    publication_type: preprint
+
   - title: "Molecular Representations for Large Language Models"
     authors: "Nicholas T. Runcie, <b>Fergus Imrie</b>, Charlotte M. Deane"
     venue: "arXiv (preprint). 2026."
