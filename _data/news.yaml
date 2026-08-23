@@ -1,4 +1,20 @@
 items:
+  - date: "2026/08"
+    text: "OpenBind released OpenBind-0, its first fully open-source molecular co-folding model."
+    links:
+      - label: "Blog"
+        url: "https://openbind.uk/news/blog-openbind-0-advancing-open-molecular-structure-prediction/"
+      - label: "Model"
+        url: "https://github.com/aqlaboratory/openfold-3/releases/tag/v0.5.0"
+    archived: n
+
+  - date: "2026/08"
+    text: "Our reinforcement learning approach for training diffusion-based docking models to generate physically valid poses was published in Chemical Science."
+    links:
+      - label: "Paper"
+        url: "https://doi.org/10.1039/D6SC02655A"
+    archived: n
+
   - date: "2026/07"
     text: "We have released an open-source package, NISPO, for IUPAC name generation from SMILES strings."
     links:
