@@ -15,10 +15,10 @@ papers:
 
   - title: "Teaching Diffusion Models Physics: Reinforcement Learning for Physically Valid Diffusion-Based Docking"
     authors: "J. Henry Broster, Bojana Popovic, Diana Kondinskaia, Charlotte M. Deane, <b>Fergus Imrie</b>"
-    venue: "bioRxiv (preprint). 2026."
-    paper_pdf: "https://www.biorxiv.org/content/10.64898/2026.03.25.714128v1"
+    venue: "Chemical Science. 2026."
+    paper_pdf: "https://doi.org/10.1039/D6SC02655A"
     selected: y
-    publication_type: preprint
+    publication_type: journal
     
   - title: "Assessing the Chemical Intelligence of Large Language Models"
     authors: "Nicholas T. Runcie, Charlotte M. Deane, <b>Fergus Imrie</b>"
