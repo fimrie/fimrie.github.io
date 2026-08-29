@@ -1,5 +1,12 @@
 items:
   - date: "2026/08"
+    text: "Our new preprint describing OpenBind's first public structure–affinity dataset and benchmark for structure-based AI is now online."
+    links:
+      - label: "Preprint"
+        url: "https://www.biorxiv.org/content/10.64898/2026.08.27.747600v1"
+    archived: n
+
+  - date: "2026/08"
     text: "OpenBind released OpenBind-0, its first fully open-source molecular co-folding model."
     links:
       - label: "Blog"
