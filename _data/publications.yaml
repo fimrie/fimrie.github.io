@@ -10,14 +10,14 @@ papers:
     authors: "Nicholas T. Runcie, <b>Fergus Imrie</b>, Charlotte M. Deane"
     venue: "arXiv (preprint). 2026."
     paper_pdf: "https://arxiv.org/abs/2607.26113"
-    selected: y
+    selected: n
     publication_type: preprint
 
   - title: "Molecular Representations for Large Language Models"
     authors: "Nicholas T. Runcie, <b>Fergus Imrie</b>, Charlotte M. Deane"
     venue: "arXiv (preprint). 2026."
     paper_pdf: "https://arxiv.org/abs/2605.01822"
-    selected: y
+    selected: n
     publication_type: preprint
 
   - title: "Teaching Diffusion Models Physics: Reinforcement Learning for Physically Valid Diffusion-Based Docking"
