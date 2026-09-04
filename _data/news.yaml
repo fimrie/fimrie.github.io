@@ -57,7 +57,7 @@ items:
     links:
       - label: "Preprint"
         url: "https://www.biorxiv.org/content/10.64898/2026.03.25.714128v1"
-    archived: n
+    archived: y
 
   - date: "2025/12"
     text: "ChemIQ, our benchmark to assess the chemical intelligence of large language models, was published in the Journal of Chemical Information and Modeling."
@@ -85,7 +85,7 @@ items:
     links:
       - label: "Preprint"
         url: "https://arxiv.org/abs/2505.07735"
-    archived: n
+    archived: y
 
   - date: "2025/04"
     text: "MolSnapper, a method for conditioning diffusion models for structure-based drug design, was accepted by the Journal of Chemical Information and Modeling."
