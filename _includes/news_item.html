@@ -1,0 +1,5 @@
+<li>[{{ include.item.date }}] {{ include.item.text }}
+  {% for link in include.item.links %}
+    <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">[{{ link.label }}]</a>
+  {% endfor %}
+</li>

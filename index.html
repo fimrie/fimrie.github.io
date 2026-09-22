@@ -37,17 +37,25 @@ title: Home
 <!-- ========== NEWS ========== -->
 <div class="docs-section" id="news">
   <h4>Recent News</h4>
-  <ul>
-    {% for item in site.data.news.items %}
-      {% if item.archived != "y" %}
-        <li>[{{ item.date }}] {{ item.text }}
-          {% for link in item.links %}
-            <a href="{{ link.url }}" target="_blank">[{{ link.label }}]</a>
-          {% endfor %}
-        </li>
-      {% endif %}
+  {% assign selected_news = site.data.news.items | where_exp: "item", "item.archived != 'y'" %}
+  <ul class="news-list">
+    {% for item in selected_news limit:5 %}
+      {% include news_item.html item=item %}
     {% endfor %}
   </ul>
+  {% if selected_news.size > 5 %}
+    <details class="news-more">
+      <summary>
+        <span class="news-show-more">Show more</span>
+        <span class="news-show-less">Show less</span>
+      </summary>
+      <ul class="news-list">
+        {% for item in selected_news offset:5 %}
+          {% include news_item.html item=item %}
+        {% endfor %}
+      </ul>
+    </details>
+  {% endif %}
 </div>
 
 

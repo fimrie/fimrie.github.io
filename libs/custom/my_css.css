@@ -14,7 +14,8 @@ a:hover {
 a:focus-visible,
 button:focus-visible,
 .button:focus-visible,
-[role="tabpanel"]:focus-visible {
+[role="tabpanel"]:focus-visible,
+summary:focus-visible {
   outline: 2px solid #176b87;
   outline-offset: 3px; }
 .container {
@@ -66,6 +67,25 @@ button:focus-visible,
   font-weight: 400;
   line-height: 34px;
   text-transform: none; }
+.news-list {
+  margin-bottom: 1.2rem; }
+.news-more summary {
+  width: fit-content;
+  min-height: 44px;
+  padding: 8px 0;
+  box-sizing: border-box;
+  color: #176b87;
+  font-weight: 600;
+  cursor: pointer; }
+.news-more summary:hover {
+  color: #104b60; }
+.news-more .news-list {
+  margin-top: 1.2rem; }
+.news-show-less,
+.news-more[open] .news-show-more {
+  display: none; }
+.news-more[open] .news-show-less {
+  display: inline; }
 ul.tab-nav {
   display: flex;
   flex-wrap: wrap;
@@ -174,9 +194,10 @@ ul.tab-nav li .active.button {
   .header {
     margin: 28px 0; }
   .header .row {
+    --portrait-width: clamp(120px, 36vw, 160px);
     display: grid;
-    grid-template-columns: 96px minmax(0, 1fr);
-    gap: 20px;
+    grid-template-columns: var(--portrait-width) minmax(0, 1fr);
+    gap: 12px 18px;
     align-items: start; }
   .header .row::after {
     display: none; }
@@ -184,9 +205,35 @@ ul.tab-nav li .active.button {
     float: none;
     width: auto;
     margin: 0; }
+  .header .main-description {
+    display: contents; }
   .main-description h1 {
-    margin-bottom: 8px;
-    font-size: clamp(2.6rem, 8vw, 3.2rem); }
+    grid-column: 1 / -1;
+    grid-row: 1;
+    margin-bottom: 4px;
+    font-size: clamp(3.2rem, 8vw, 3.8rem); }
+  .header .profile-photo {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    align-self: stretch;
+    position: relative;
+    min-height: calc(var(--portrait-width) * 1.25); }
+  .profile-photo > a {
+    position: absolute;
+    inset: 0; }
+  .profile-photo .profile-image {
+    height: 100%;
+    object-fit: cover; }
+  .profile-title {
+    grid-column: 2;
+    grid-row: 2; }
+  .profile-email {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: end; }
+  .profile-social {
+    grid-column: 1 / -1;
+    grid-row: 4; }
   .main-description p {
     font-size: 1.4rem;
     line-height: 1.55;
@@ -215,11 +262,15 @@ ul.tab-nav li .active.button {
     padding: 0 12px; }
 }
 
-@media (max-width: 359px) {
-  .main-description .social-links {
-    display: grid;
-    grid-template-columns: repeat(3, 32px);
-    column-gap: 8px; }
+/* Wider phones have room for the links alongside the portrait. */
+@media (min-width: 400px) and (max-width: 549px) {
+  .header .profile-photo {
+    grid-row: 2 / 5; }
+  .profile-email {
+    align-self: start; }
+  .profile-social {
+    grid-column: 2;
+    align-self: end; }
 }
 
 /* Larger than tablet */

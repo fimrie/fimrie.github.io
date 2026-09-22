@@ -52,7 +52,7 @@ papers:
     authors: "Yael Ziv, <b>Fergus Imrie</b>, Brian Marsden, Charlotte M. Deane"
     venue: "Journal of Chemical Information and Modeling. 2025."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.4c02008"
-    selected: y
+    selected: n
     publication_type: journal
   
   - title: "Automated Ensemble Multimodal Machine Learning for Healthcare"
@@ -122,14 +122,14 @@ papers:
     authors: "<b>Fergus Imrie</b>, Robert Davis, Mihaela van der Schaar"
     venue: "Nature Machine Intelligence. 2023."
     paper_pdf: "https://www.nature.com/articles/s42256-023-00698-2"
-    selected: y
+    selected: n
     publication_type: journal
 
   - title: "AutoPrognosis 2.0: Democratizing Diagnostic and Prognostic Modeling in Healthcare with Automated Machine Learning"
     authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F McKinney, Mihaela van der Schaar"
     venue: "PLOS Digital Health. 2023."
     paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000276"
-    selected: y
+    selected: n
     publication_type: journal
 
   - title: "Differentiable and Transportable Structure Learning"
@@ -178,7 +178,7 @@ papers:
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Alexander Norcliffe<sup>‡</sup>, Pietro Lio, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2022."
     paper_pdf: "https://openreview.net/forum?id=-9PV7GKwYpM"
-    selected: y
+    selected: n
     publication_type: ml_conference
 
   - title: "Continuous-Time Modeling of Counterfactual Outcomes Using Neural Controlled Differential Equations"
@@ -199,7 +199,7 @@ papers:
     authors: "Changhee Lee<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2022. <b>[Spotlight]</b>"
     paper_pdf: "https://openreview.net/pdf?id=oDFvtxzPOx"
-    selected: y
+    selected: n
     publication_type: ml_conference
 
   - title: "Explaining Latent Representations with a Corpus of Examples"
