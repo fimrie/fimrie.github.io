@@ -23,6 +23,10 @@
       <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
     {% endif %}
 
+    {% if paper.website %}
+      <a class="button" href="{{ paper.website }}" target="_blank" rel="noopener">Website</a>
+    {% endif %}
+
     {% if paper.data %}
       <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
     {% endif %}

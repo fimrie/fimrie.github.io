@@ -3,6 +3,7 @@ papers:
     authors: "Jochem Nelen, Omeir Khan, Etowah Adams, Jasmin C. Aschenbrenner, Warren Thompson, Ali Ebrahim, Eda Çapkin, Cédric Vallée, OpenBind, Elisabeth J. Shotton, Ed J. Griffen, John D. Chodera, Charlotte M. Deane, Frank von Delft, Mohammed AlQuraishi, <b>Fergus Imrie</b>"
     venue: "bioRxiv (preprint). 2026."
     paper_pdf: "https://www.biorxiv.org/content/10.64898/2026.08.27.747600v1"
+    code: "https://github.com/OpenBind-Consortium/EV-A71_2A_benchmark"
     selected: y
     publication_type: preprint
 
@@ -10,6 +11,7 @@ papers:
     authors: "Nicholas T. Runcie, <b>Fergus Imrie</b>, Charlotte M. Deane"
     venue: "arXiv (preprint). 2026."
     paper_pdf: "https://arxiv.org/abs/2607.26113"
+    code: "https://github.com/oxpig/nispo"
     selected: n
     publication_type: preprint
 
@@ -17,6 +19,7 @@ papers:
     authors: "Nicholas T. Runcie, <b>Fergus Imrie</b>, Charlotte M. Deane"
     venue: "arXiv (preprint). 2026."
     paper_pdf: "https://arxiv.org/abs/2605.01822"
+    code: "https://github.com/oxpig/MolJSON"
     selected: n
     publication_type: preprint
 
@@ -24,6 +27,7 @@ papers:
     authors: "J. Henry Broster, Bojana Popovic, Diana Kondinskaia, Charlotte M. Deane, <b>Fergus Imrie</b>"
     venue: "Chemical Science. 2026."
     paper_pdf: "https://doi.org/10.1039/D6SC02655A"
+    code: "https://github.com/oxpig/RLDiff"
     selected: y
     publication_type: journal
     
@@ -31,6 +35,7 @@ papers:
     authors: "Nicholas T. Runcie, Charlotte M. Deane, <b>Fergus Imrie</b>"
     venue: "Journal of Chemical Information and Modeling. 2025."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.5c02145"
+    code: "https://github.com/oxpig/ChemIQ"
     selected: y
     publication_type: journal
 
@@ -38,6 +43,7 @@ papers:
     authors: "<b>Fergus Imrie</b>, Paulius Rauba, Mihaela van der Schaar"
     venue: "Frontiers in Artificial Intelligence. 2025."
     paper_pdf: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1623339/full"
+    code: "https://github.com/pauliusrauba/LLMs_interface"
     selected: n
     publication_type: journal
   
@@ -45,6 +51,7 @@ papers:
     authors: "Alexander Norcliffe, Changhee Lee, <b>Fergus Imrie</b>, Mihaela van der Schaar, Pietro Lio"
     venue: "International Conference on Machine Learning (ICML). 2025."
     paper_pdf: "https://arxiv.org/abs/2508.01957"
+    code: "https://github.com/a-norcliffe/SEFA"
     selected: n
     publication_type: ml_conference
 
@@ -52,6 +59,7 @@ papers:
     authors: "Yael Ziv, <b>Fergus Imrie</b>, Brian Marsden, Charlotte M. Deane"
     venue: "Journal of Chemical Information and Modeling. 2025."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.4c02008"
+    code: "https://github.com/oxpig/MolSnapper"
     selected: n
     publication_type: journal
   
@@ -59,6 +67,7 @@ papers:
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Stefan Denner<sup>‡</sup>, Lucas S Brunschwig, Klaus Maier-Hein, Mihaela van der Schaar"
     venue: "IEEE Journal of Biomedical and Health Informatics. 2025."
     paper_pdf: "https://ieeexplore.ieee.org/document/10842455"
+    code: "https://github.com/vanderschaarlab/AutoPrognosis-Multimodal"
     selected: y
     publication_type: journal
     
@@ -66,6 +75,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Nicolas Huynh<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Journal of Data-Centric Machine Learning Research. 2024."
     paper_pdf: "https://data.mlr.press/assets/pdf/v01-10.pdf"
+    code: "https://github.com/seedatnabeel/DIPS"
     selected: n
     publication_type: journal
   
@@ -73,6 +83,7 @@ papers:
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2024."
     paper_pdf: "https://openreview.net/forum?id=icTZCUbtD6"
+    code: "https://github.com/seedatnabeel/H-CAT"
     selected: n
     publication_type: ml_conference
 
@@ -80,6 +91,7 @@ papers:
     authors: "Dennis Frauen, <b>Fergus Imrie</b>, Alicia Curth, Valentyn Melnychuk, Stefan Feuerriegel, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2024."
     paper_pdf: "https://arxiv.org/abs/2311.16026"
+    code: "https://github.com/DennisFrauen/NeuralCSA"
     selected: n
     publication_type: ml_conference
 
@@ -94,6 +106,7 @@ papers:
     authors: "Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "IEEE Transactions on Artificial Intelligence. 2023."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/10372382"
+    website: "https://www.vanderschaar-lab.com/dc-check/"
     selected: n
     publication_type: journal
 
@@ -101,6 +114,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Boris van Breugel<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2023."
     paper_pdf: "https://arxiv.org/abs/2310.16524"
+    code: "https://github.com/seedatnabeel/3S-Testing"
     selected: n
     publication_type: ml_conference
 
@@ -108,6 +122,7 @@ papers:
     authors: "Thomas Callender, <b>Fergus Imrie</b>, Bogdan Cebere, Nora Pashayan, Neal Navani, Mihaela van der Schaar, Sam M Janes"
     venue: "PLOS Medicine. 2023."
     paper_pdf: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287"
+    code: "https://github.com/callta/lung-cancer-models"
     selected: n
     publication_type: journal
 
@@ -122,6 +137,7 @@ papers:
     authors: "<b>Fergus Imrie</b>, Robert Davis, Mihaela van der Schaar"
     venue: "Nature Machine Intelligence. 2023."
     paper_pdf: "https://www.nature.com/articles/s42256-023-00698-2"
+    code: "https://github.com/vanderschaarlab/Interpretability"
     selected: n
     publication_type: journal
 
@@ -129,6 +145,7 @@ papers:
     authors: "<b>Fergus Imrie</b>, Bogdan Cebere, Eoin F McKinney, Mihaela van der Schaar"
     venue: "PLOS Digital Health. 2023."
     paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000276"
+    code: "https://github.com/vanderschaarlab/autoprognosis"
     selected: n
     publication_type: journal
 
@@ -136,6 +153,7 @@ papers:
     authors: "Jeroen Berrevoets, Nabeel Seedat, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2023."
     paper_pdf: "https://arxiv.org/abs/2206.06354"
+    code: "https://github.com/jeroenbe/d-struct"
     selected: n
     publication_type: ml_conference
     
@@ -143,6 +161,7 @@ papers:
     authors: "Maranga Mokaya, <b>Fergus Imrie</b>, Willem P van Hoorn, Aleksandra Kalisz, Anthony R Bradley, Charlotte M Deane"
     venue: "Nature Machine Intelligence. 2023."
     paper_pdf: "https://www.nature.com/articles/s42256-023-00636-2"
+    code: "https://github.com/m-mokaya/RIOP"
     selected: n
     publication_type: journal
 
@@ -150,6 +169,7 @@ papers:
     authors: "Alan Jeffares<sup>‡</sup>, Tennison Liu<sup>‡</sup>, Jonathan Crabbé, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2023."
     paper_pdf: "https://openreview.net/pdf?id=n6H86gW8u0d"
+    code: "https://github.com/alanjeffares/TANGOS"
     selected: n
     publication_type: ml_conference
 
@@ -157,6 +177,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, Alan Jeffares<sup>‡</sup>, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2302.12238"
+    code: "https://github.com/seedatnabeel/SSCP"
     selected: n
     publication_type: ml_conference
 
@@ -164,6 +185,7 @@ papers:
     authors: "Jeroen Berrevoets, <b>Fergus Imrie</b>, Trent Kyono, James Jordon, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2202.02096"
+    code: "https://github.com/jeroenbe/mcm"
     selected: n
     publication_type: ml_conference
 
@@ -171,6 +193,7 @@ papers:
     authors: "Alexander Norcliffe<sup>‡</sup>, Bogdan Cebere<sup>‡</sup>, <b>Fergus Imrie</b>, Pietro Lio, Mihaela van der Schaar"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS). 2023."
     paper_pdf: "https://arxiv.org/abs/2302.12749"
+    code: "https://github.com/vanderschaarlab/survivalgan"
     selected: n
     publication_type: ml_conference
 
@@ -178,6 +201,7 @@ papers:
     authors: "<b>Fergus Imrie<sup>‡</sup></b>, Alexander Norcliffe<sup>‡</sup>, Pietro Lio, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2022."
     paper_pdf: "https://openreview.net/forum?id=-9PV7GKwYpM"
+    code: "https://github.com/a-norcliffe/Composite-Feature-Selection"
     selected: n
     publication_type: ml_conference
 
@@ -185,6 +209,7 @@ papers:
     authors: "Nabeel Seedat<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alexis Bellot, Zhaozhi Qian, Mihaela van der Schaar"
     venue: "International Conference on Machine Learning (ICML). 2022."
     paper_pdf: "https://proceedings.mlr.press/v162/seedat22b.html"
+    code: "https://github.com/seedatnabeel/TE-CDE"
     selected: n
     publication_type: ml_conference
 
@@ -192,6 +217,7 @@ papers:
     authors: "Thomas E Hadfield, <b>Fergus Imrie</b>, Andy Merritt, Kristian Birchall, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2022."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.1c01311"
+    code: "https://github.com/oxpig/STRIFE"
     selected: n
     publication_type: journal
 
@@ -199,6 +225,7 @@ papers:
     authors: "Changhee Lee<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Mihaela van der Schaar"
     venue: "International Conference on Learning Representations (ICLR). 2022. <b>[Spotlight]</b>"
     paper_pdf: "https://openreview.net/pdf?id=oDFvtxzPOx"
+    code: "https://github.com/chl8856/SEFS"
     selected: n
     publication_type: ml_conference
 
@@ -206,6 +233,7 @@ papers:
     authors: "Jonathan Crabbé, Zhaozhi Qian, <b>Fergus Imrie</b>, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021. <b>[Spotlight]</b>"
     paper_pdf: "https://papers.nips.cc/paper/2021/file/65658fde58ab3c2b6e5132a39fae7cb9-Paper.pdf"
+    code: "https://github.com/JonathanCrabbe/Simplex"
     selected: n
     publication_type: ml_conference
   
@@ -213,6 +241,7 @@ papers:
     authors: "Yuchao Qin<sup>‡</sup>, <b>Fergus Imrie<sup>‡</sup></b>, Alihan Hüyük, Daniel Jarrett, Alexander Gimson, Mihaela van der Schaar"
     venue: "Neural Information Processing Systems (NeurIPS). 2021."
     paper_pdf: "https://papers.nips.cc/paper/2021/file/c344336196d5ec19bd54fd14befdde87-Paper.pdf"
+    code: "https://github.com/yvchao/iTransplant"
     selected: n
     publication_type: ml_conference
 
@@ -220,6 +249,7 @@ papers:
     authors: "<b>Fergus Imrie</b>, Thomas E Hadfield, Anthony R Bradley, Charlotte M Deane"
     venue: "Chemical Science. 2021."
     paper_pdf: "https://pubs.rsc.org/en/content/articlelanding/2021/sc/d1sc02436a"
+    code: "https://github.com/oxpig/DEVELOP"
     selected: y
     publication_type: journal
 
@@ -227,6 +257,7 @@ papers:
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Charlotte M Deane"
     venue: "Bioinformatics. 2021."
     paper_pdf: "https://academic.oup.com/bioinformatics/article/37/15/2134/6126797"
+    code: "https://github.com/fimrie/DeepCoy"
     selected: y
     publication_type: journal
 
@@ -241,6 +272,7 @@ papers:
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2020."
     paper_pdf: "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b01120"
+    code: "https://github.com/fimrie/DeLinker"
     selected: y
     publication_type: journal
     
@@ -248,5 +280,6 @@ papers:
     authors: "<b>Fergus Imrie</b>, Anthony R Bradley, Mihaela van der Schaar, Charlotte M Deane"
     venue: "Journal of Chemical Information and Modeling. 2018."
     paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.8b00350"
+    code: "https://github.com/fimrie/DenseFS"
     selected: n
     publication_type: journal
