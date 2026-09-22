@@ -1,28 +1,55 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.65; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h4 {
-  letter-spacing: .1rem; }
+  letter-spacing: .02em; }
+a {
+  color: #176b87;
+  text-underline-offset: .15em; }
+a:hover {
+  color: #104b60; }
+a:focus-visible,
+button:focus-visible,
+.button:focus-visible,
+[role="tabpanel"]:focus-visible {
+  outline: 2px solid #176b87;
+  outline-offset: 3px; }
 .container {
   max-width: 800px; }
 .header {
-  margin-top: 60px;
-  margin-bottom: 60px; 
+  margin-top: 50px;
+  margin-bottom: 48px;
   text-align: left; }
+.profile-image {
+  display: block;
+  width: 100%;
+  height: auto; }
 .main-description h1 {
   margin-bottom: 0px; }
 .main-description p {
   margin-bottom: 0px; }
 .main-description .fa {
   font-size: 22px;
-  margin-top: 5px; }
+  margin-top: 0; }
+.social-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px; }
 .social-links a {
   color: inherit;
-  display: inline-block;
-  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 40px;
   text-decoration: none; }
-.social-links a:last-child {
-  margin-right: 0; }
 .social-links a:focus,
 .social-links a:hover {
-  color: #33C3F0; }
+  color: #176b87; }
 .paper {
   margin-bottom: 20px }
 .paper .title {
@@ -33,11 +60,34 @@ h4 {
   margin-top: 5px }
 .paper .button {
   display: inline-block;
-  height: 25px;
-  padding: 0 25px;
-  font-weight: 100;
-  line-height: 25px;
+  height: 36px;
+  padding: 0 18px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 34px;
   text-transform: none; }
+ul.tab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 0 10px; }
+ul.tab-nav li {
+  margin: 0; }
+ul.tab-nav li .button {
+  height: auto;
+  min-height: 44px;
+  margin: 0;
+  padding: 0 16px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  line-height: 42px;
+  letter-spacing: .04em; }
+ul.tab-nav li .active.button {
+  border: 1px solid #176b87;
+  background: #eef5f8;
+  color: #104b60; }
 .section-header {
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -46,15 +96,48 @@ h4 {
 .docs-section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
+  scroll-margin-top: 7.5rem;
   margin-bottom: 0;}
 .footer {
   text-align: center;
-  color: rgba(0, 0, 0, 0.4);
+  color: #595959;
   border-top: 1px solid #eee;
   padding: 15px 0 40px 0;
   margin-bottom: 0;}
 .navbar {
-  display: none; }
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+.navbar > .container {
+  width: 100%;
+  padding: 0; }
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.navbar-item {
+  margin: 0; }
+.navbar-link {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  padding: 0 16px;
+  color: #222;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: .12rem;
+  text-decoration: none;
+  text-transform: uppercase; }
+.navbar-link:hover,
+.navbar-link.active {
+  color: #176b87; }
+.navbar + .docs-section {
+  border-top: 0; }
 .title-subtitle h3 {
   margin-bottom: 0px; }
 .title-subtitle h5 {
@@ -81,58 +164,66 @@ h4 {
   padding: 3px;
 }
 
-/* Larger than phone */
-@media (min-width: 550px) {
+/* Compact phone header and navigation; preserve the desktop column layout. */
+@media (max-width: 549px) {
+  body {
+    font-size: 1.6rem; }
+  .container {
+    width: 100%;
+    padding: 0 20px; }
   .header {
-    margin-top: 5rem; }
+    margin: 28px 0; }
+  .header .row {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 20px;
+    align-items: start; }
+  .header .row::after {
+    display: none; }
+  .header .columns {
+    float: none;
+    width: auto;
+    margin: 0; }
+  .main-description h1 {
+    margin-bottom: 8px;
+    font-size: clamp(2.6rem, 8vw, 3.2rem); }
+  .main-description p {
+    font-size: 1.4rem;
+    line-height: 1.55;
+    overflow-wrap: anywhere; }
+  .main-description .social-links {
+    gap: 3px; }
+  .main-description .social-links a {
+    min-width: 30px; }
+  .navbar-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .navbar-link {
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 8px; }
+  .docs-section {
+    padding: 3.2rem 0;
+    scroll-margin-top: 10rem; }
+  .paper .button {
+    height: 44px;
+    line-height: 42px; }
+  ul.tab-nav li {
+    flex: 1 1 auto; }
+  ul.tab-nav li .button {
+    width: 100%;
+    padding: 0 12px; }
+}
+
+@media (max-width: 359px) {
+  .main-description .social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 32px);
+    column-gap: 8px; }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  /* Navbar */
-  .navbar + .docs-section {
-    border-top-width: 0; }
-  .navbar,
-  .navbar-spacer {
-    display: block;
-    width: 100%;
-    height: 6.5rem;
-    background: #fff;
-    z-index: 99;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee; }
-  .navbar-spacer {
-    display: none; }
-  .navbar > .container {
-    width: 100%; }
-  .navbar-list {
-    list-style: none;
-    margin-bottom: 0; }
-  .navbar-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0; }
-  .navbar-link {
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: .2rem;
-    margin-right: 35px;
-    text-decoration: none;
-    line-height: 6.5rem;
-    color: #222; }
-  .navbar-link.active {
-    color: #33C3F0; }
-  .has-docked-nav .navbar {
-    position: fixed;
-    top: 0;
-    left: 0; }
-  .has-docked-nav .navbar-spacer {
-    display: block; }
-  /* Re-overiding the width 100% declaration to match size of % based container */
-  .has-docked-nav .navbar > .container {
-    width: 80%; }
-
   /* Popover */
   .popover.open {
     display: block;

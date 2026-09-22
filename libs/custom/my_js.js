@@ -1,50 +1,49 @@
-$(document).ready(function() {
-  var $nav = $('.navbar');
-  var $body = $('body');
-  var $window = $(window);
-  var navOffsetTop = $nav.length ? $nav.offset().top : 0;
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[role="tablist"]').forEach(function (tablist) {
+    var tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
 
-  function onScroll() {
-    if (!$nav.length) {
-      return;
+    function activateTab(tab) {
+      tabs.forEach(function (item) {
+        var selected = item === tab;
+        var panel = document.getElementById(item.getAttribute('aria-controls'));
+
+        item.setAttribute('aria-selected', String(selected));
+        item.tabIndex = selected ? 0 : -1;
+        item.classList.toggle('active', selected);
+        panel.hidden = !selected;
+        panel.classList.toggle('active', selected);
+      });
     }
 
-    if (navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
-      $body.addClass('has-docked-nav');
-    }
+    tabs.forEach(function (tab, index) {
+      tab.addEventListener('click', function () {
+        activateTab(tab);
+      });
 
-    if (navOffsetTop >= $window.scrollTop() && $body.hasClass('has-docked-nav')) {
-      $body.removeClass('has-docked-nav');
-    }
-  }
+      tab.addEventListener('keydown', function (event) {
+        var nextIndex;
 
-  function resize() {
-    if (!$nav.length) {
-      return;
-    }
+        switch (event.key) {
+          case 'ArrowRight':
+            nextIndex = (index + 1) % tabs.length;
+            break;
+          case 'ArrowLeft':
+            nextIndex = (index - 1 + tabs.length) % tabs.length;
+            break;
+          case 'Home':
+            nextIndex = 0;
+            break;
+          case 'End':
+            nextIndex = tabs.length - 1;
+            break;
+          default:
+            return;
+        }
 
-    $body.removeClass('has-docked-nav');
-    navOffsetTop = $nav.offset().top;
-    onScroll();
-  }
-
-  function smoothScroll(e) {
-    var target = this.hash ? $(this.hash) : $();
-
-    if (!target.length) {
-      return;
-    }
-
-    e.preventDefault();
-    $('html, body').stop().animate(
-      { scrollTop: target.offset().top - 40 },
-      200
-    );
-  }
-
-  $window.on('scroll', onScroll);
-  $window.on('resize', resize);
-  $('a[href^="#"]').on('click', smoothScroll);
-
-  onScroll();
+        event.preventDefault();
+        activateTab(tabs[nextIndex]);
+        tabs[nextIndex].focus();
+      });
+    });
+  });
 });

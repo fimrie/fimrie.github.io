@@ -60,43 +60,43 @@ title: Home
     <sup>‡</sup> indicates equal contribution.
   </p>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Highlights</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-    <li><div class="button" data-ref="#papers-preprints">Preprints</div></li>
-    <li><div class="button" data-ref="#papers-journals">Journals</div></li>
-    <li><div class="button" data-ref="#papers-ml-conferences">ML Conferences</div></li>
+  <ul class="tab-nav" role="tablist" aria-label="Publication categories">
+    <li role="presentation"><button type="button" class="button active" role="tab" id="tab-selected" aria-controls="papers-selected" aria-selected="true" tabindex="0">Highlights</button></li>
+    <li role="presentation"><button type="button" class="button" role="tab" id="tab-all" aria-controls="papers-all" aria-selected="false" tabindex="-1">All</button></li>
+    <li role="presentation"><button type="button" class="button" role="tab" id="tab-preprints" aria-controls="papers-preprints" aria-selected="false" tabindex="-1">Preprints</button></li>
+    <li role="presentation"><button type="button" class="button" role="tab" id="tab-journals" aria-controls="papers-journals" aria-selected="false" tabindex="-1">Journals</button></li>
+    <li role="presentation"><button type="button" class="button" role="tab" id="tab-ml-conferences" aria-controls="papers-ml-conferences" aria-selected="false" tabindex="-1">ML Conferences</button></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
+    <div class="tab-pane active" id="papers-selected" role="tabpanel" aria-labelledby="tab-selected" tabindex="0">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         {% include paper.html %}
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
+    <div class="tab-pane" id="papers-all" role="tabpanel" aria-labelledby="tab-all" tabindex="0" hidden>
       {% for paper in site.data.publications.papers %}
         {% include paper.html %}
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-preprints">
+    <div class="tab-pane" id="papers-preprints" role="tabpanel" aria-labelledby="tab-preprints" tabindex="0" hidden>
       {% assign selected_papers = site.data.publications.papers | where: "publication_type", "preprint" %}
       {% for paper in selected_papers %}
         {% include paper.html %}
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-journals">
+    <div class="tab-pane" id="papers-journals" role="tabpanel" aria-labelledby="tab-journals" tabindex="0" hidden>
       {% assign journal_papers = site.data.publications.papers | where: "publication_type", "journal" %}
       {% for paper in journal_papers %}
         {% include paper.html %}
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-ml-conferences">
+    <div class="tab-pane" id="papers-ml-conferences" role="tabpanel" aria-labelledby="tab-ml-conferences" tabindex="0" hidden>
       {% assign ml_conference_papers = site.data.publications.papers | where: "publication_type", "ml_conference" %}
       {% for paper in ml_conference_papers %}
         {% include paper.html %}
