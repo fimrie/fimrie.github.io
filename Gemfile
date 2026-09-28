@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby "~> 3.3.0"
 
 # Keep the current renderer while managing the build independently of pages-gem.
-gem "jekyll", "~> 3.10.0"
+gem "jekyll", "~> 4.4.1"
 gem "kramdown-parser-gfm", "~> 1.1"
 gem "minima", "~> 2.5"
 gem "webrick", "~> 1.9"
