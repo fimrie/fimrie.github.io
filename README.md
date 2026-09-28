@@ -4,7 +4,7 @@ Personal website built with Jekyll, based on a template by Martin Saveski.
 
 ## Local setup
 
-This repo uses Jekyll 3.10 with Ruby 3.3 (see `.ruby-version`) and Bundler.
+This repo uses Jekyll 4.4 with Ruby 3.3 (see `.ruby-version`) and Bundler.
 Use a current Ruby 3.3 patch release. The committed `Gemfile.lock` is used both
 locally and in GitHub Actions.
 
@@ -84,28 +84,22 @@ for inspection, including on pull requests. Only the deployment job has Pages
 write and identity-token permissions; pull requests use read-only repository
 permissions. Actions are pinned to commit SHAs and maintained by Dependabot.
 
-### Activating the new workflow
+### Repository protection
 
-1. Open a pull request with the workflow and dependency changes. Confirm that
-   **Build site**, **Audit Ruby dependencies**, and **Review dependency changes**
-   pass. Inspect the generated site artifact before changing the publishing source.
-2. In repository **Settings → Pages → Build and deployment**, set **Source** to
-   **GitHub Actions**. Configure the `github-pages` environment to allow
-   deployments only from `master`.
-3. Merge the pull request. The push to `master` builds, audits, and deploys the
-   site. Check the deployment result and the live homepage, publication tabs,
-   links, `/404.html`, and `/feed.xml`.
-4. Once the checks have run, add a branch ruleset for `master` requiring pull
-   requests and the three checks named above. An additional approving reviewer
-   is optional for this personal repository. Configure any owner bypass
-   deliberately; otherwise direct pushes will be blocked.
+Pages uses GitHub Actions, and the `github-pages` environment permits deployments
+only from `master`. The active branch ruleset requires pull requests and passing
+**Build site**, **Audit Ruby dependencies**, and **Review dependency changes**
+checks. Branches must be up to date before merging; direct pushes, force pushes,
+and deleting `master` are blocked.
 
-Changing the publishing source, enabling a ruleset, and configuring repository
-security settings are separate GitHub settings; these files do not change them.
+After merging an update, confirm the deployment succeeds and check the live
+homepage, publication tabs, links, `/404.html`, and `/feed.xml`. Review major
+renderer updates separately and inspect their generated site before merging.
+These protections are configured in GitHub settings, not by these files.
 
-The site retains Jekyll 3.10 and Minima 2.5. Removing the unused Pages plugins
-also removes their `rubyzip` and `json` dependency chains. Check that the related
-Dependabot alerts close after the new lockfile reaches `master`.
+The build uses Jekyll 4.4 and Minima 2.5. The unused Pages plugins and their
+`rubyzip` dependency are removed. Jekyll 4 requires `json`; its locked version
+includes the security fix and is checked by the Ruby audit.
 
 ## Dependency updates
 
@@ -113,7 +107,9 @@ Dependabot security updates are enabled in the repository settings and can open
 fix pull requests when a compatible patched version exists.
 `.github/dependabot.yml` also checks Ruby gems (including indirect dependencies)
 and GitHub Actions every Monday at 09:00 Europe/London. Routine minor and patch
-updates are grouped per ecosystem; major updates remain separate. Security
+updates are grouped per ecosystem; direct major updates remain separate.
+Review the whole lockfile diff: resolving an update can also change the major
+version of an indirect dependency. Security
 updates are not delayed until the weekly version-update check. Updates are
 reviewed and merged manually.
 
@@ -138,7 +134,10 @@ a pull request. A failed audit prevents a new deployment; the already published
 site continues to be served. Weekly audit failures appear in GitHub Actions;
 enable workflow-failure and Dependabot security notifications in your account.
 
-Secret scanning and push protection should be enabled separately in repository
-security settings. CodeQL can also be enabled there for JavaScript and workflow
-analysis. These checks do not replace maintenance of manually vendored assets
-such as the JavaScript libraries under `libs/external/`.
+Secret scanning and push protection are enabled in repository security settings.
+CodeQL has not been configured. These checks do not replace maintenance of
+manually vendored assets under `libs/external/`.
+
+The site does not use jQuery. Publication tabs use native browser APIs in
+`libs/custom/my_js.js`; the old jQuery bundle and unused Skeleton Tabs JavaScript
+have been removed. Keep the Skeleton Tabs CSS, which still styles the tabs.
