@@ -10,3 +10,14 @@ github_username: fimrie
 theme: minima
 plugins:
   - jekyll-feed
+
+# Preserve the default Pages builder's production stylesheet output.
+sass:
+  style: compressed
+
+# Build and maintenance files are not part of the published website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
