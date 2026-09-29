@@ -8,7 +8,19 @@ This repo uses Jekyll 4.4 with Ruby 3.3 (see `.ruby-version`) and Bundler.
 Use a current Ruby 3.3 patch release. The committed `Gemfile.lock` is used both
 locally and in GitHub Actions.
 
-If you manage Ruby with conda, create an environment (or use `conda install`
+On macOS, use Homebrew's versioned Ruby:
+
+```bash
+brew install ruby@3.3
+export PATH="$(brew --prefix ruby@3.3)/bin:$PATH"
+gem install bundler -v 4.0.10 --no-document
+```
+
+The preview command below selects this Ruby automatically, even when an older
+Ruby is on your shell's `PATH`. It also works with an already active Ruby 3.3
+from another version manager when Homebrew's Ruby is not installed.
+
+If you prefer conda, create an environment (or use `conda install`
 with the same packages to update an existing `fimrie-site` environment):
 
 ```bash
@@ -26,6 +38,7 @@ action; Dependabot maintains that action reference.
 Install project dependencies:
 
 ```bash
+bundle config set --local path vendor/bundle
 bundle install
 ```
 
@@ -37,13 +50,15 @@ Build the site once:
 bundle exec jekyll build
 ```
 
-Serve the site with:
+Start the local preview from the project directory:
 
 ```bash
-bundle exec jekyll serve --livereload
+./bin/preview
 ```
 
-Jekyll will print the local URL in the terminal.
+Open <http://127.0.0.1:4000/>. Jekyll rebuilds when you save changes and
+LiveReload refreshes the browser. Stop it with Ctrl-C. Extra Jekyll options can
+be passed to the command, for example `./bin/preview --port 4001`.
 
 ## Updating the site
 
