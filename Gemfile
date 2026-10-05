@@ -8,7 +8,7 @@ gem "minima", "~> 2.5"
 gem "webrick", "~> 1.9"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-feed", "~> 0.18"
 end
 
 # Run the same dependency audit locally and in GitHub Actions.
