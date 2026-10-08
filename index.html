@@ -4,7 +4,7 @@ title: Home
 ---
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
-  <h4>About me</h4>
+  <h2>About me</h2>
   <p>
     I am an Associate Professor of Statistics in the <a href="https://www.stats.ox.ac.uk/people/fergus-imrie">Department of Statistics at the University of Oxford</a> and a <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-fergus-imrie/">Hugh Price Fellow at Jesus College, Oxford</a>.
     My research develops machine learning methods for drug discovery and healthcare, with a particular focus on structure-based drug discovery, experimental design and decision-making, and learning from small, noisy, or biased datasets.
@@ -26,7 +26,7 @@ title: Home
 
 <!-- ========== WORKING WITH ME ========== -->
 <div class="docs-section" id="opportunities">
-  <h4>Working with me</h4>
+  <h2>Working with me</h2>
 
   <p>
     If you're a current DPhil student at Oxford and would like to do a rotation project with me, please get in touch.
@@ -41,7 +41,7 @@ title: Home
 
 <!-- ========== NEWS ========== -->
 <div class="docs-section" id="news">
-  <h4>Recent News</h4>
+  <h2>Recent News</h2>
   {% assign selected_news = site.data.news.items | where_exp: "item", "item.archived != 'y'" %}
   <ul class="news-list">
     {% for item in selected_news limit:5 %}
@@ -66,30 +66,30 @@ title: Home
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <h2>Publications</h2>
 
   <p>
     Selected publications are highlighted below. A fuller and usually more current list is available on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
     <sup>‡</sup> indicates equal contribution.
   </p>
 
-  <ul class="tab-nav" role="tablist" aria-label="Publication categories">
-    <li role="presentation"><button type="button" class="button active" role="tab" id="tab-selected" aria-controls="papers-selected" aria-selected="true" tabindex="0">Highlights</button></li>
-    <li role="presentation"><button type="button" class="button" role="tab" id="tab-all" aria-controls="papers-all" aria-selected="false" tabindex="-1">All</button></li>
+  <ul class="tab-nav" role="tablist" aria-label="Publication categories" hidden>
+    <li role="presentation"><button type="button" class="button" role="tab" id="tab-selected" aria-controls="papers-selected" aria-selected="false" tabindex="-1">Highlights</button></li>
+    <li role="presentation"><button type="button" class="button active" role="tab" id="tab-all" aria-controls="papers-all" aria-selected="true" tabindex="0">All</button></li>
     <li role="presentation"><button type="button" class="button" role="tab" id="tab-preprints" aria-controls="papers-preprints" aria-selected="false" tabindex="-1">Preprints</button></li>
     <li role="presentation"><button type="button" class="button" role="tab" id="tab-journals" aria-controls="papers-journals" aria-selected="false" tabindex="-1">Journals</button></li>
     <li role="presentation"><button type="button" class="button" role="tab" id="tab-ml-conferences" aria-controls="papers-ml-conferences" aria-selected="false" tabindex="-1">ML Conferences</button></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected" role="tabpanel" aria-labelledby="tab-selected" tabindex="0">
+    <div class="tab-pane" id="papers-selected" role="tabpanel" aria-labelledby="tab-selected" tabindex="0" hidden>
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         {% include paper.html %}
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all" role="tabpanel" aria-labelledby="tab-all" tabindex="0" hidden>
+    <div class="tab-pane active" id="papers-all" role="tabpanel" aria-labelledby="tab-all" tabindex="0">
       {% for paper in site.data.publications.papers %}
         {% include paper.html %}
       {% endfor %}
@@ -118,7 +118,8 @@ title: Home
   </div>
 </div>
 
-<!-- ========== PROJECTS ========== 
+{% comment %}
+<!-- ========== PROJECTS ========== -->
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
 
@@ -191,4 +192,4 @@ title: Home
   </div>
 
 </div>
--->
+{% endcomment %}

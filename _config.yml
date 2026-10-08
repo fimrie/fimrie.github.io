@@ -6,6 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://fimrie.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username: fimrie
 
+# GA4 tags and their destinations are managed in this Tag Manager container.
+google_tag_manager_id: GTM-T4H46C4
+
 # Build settings
 theme: minima
 plugins:

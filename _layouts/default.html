@@ -36,9 +36,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
 
-  <!-- Timeline
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
   <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
 
   <!-- Scripts
@@ -51,8 +48,11 @@
   <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
   <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
 
+  {% include google_tag_manager.html placement="head" %}
+
 </head>
 <body>
+  {% include google_tag_manager.html placement="body" %}
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -89,7 +89,9 @@
       </div>
     </nav>
 
-    {{ content}}
+    <main id="main-content">
+      {{ content }}
+    </main>
 
     <div class="footer">
       <div class="row">
@@ -108,8 +110,6 @@
 
   </div>
 
-  <!-- Google Analytics -->
-  {% include google_analytics.html %}
 
   <!-- do not remove -->
   <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>

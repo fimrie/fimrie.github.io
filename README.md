@@ -79,6 +79,58 @@ category tabs. Allowed values are:
 - `ml_conference`
 - `book_chapter`
 
+Publication tabs open Highlights by default. Category links use their panel IDs,
+for example `/#papers-journals` or `/#papers-preprints`. Clicking a tab adds a
+browser history entry; arrow-key navigation updates the current entry. Without
+the tab script, the full publication list remains available and the tab controls
+are hidden.
+
+Project and experience data are retained as template examples. The project
+markup in `index.html` is inside a Liquid comment so Jekyll does not render it.
+The timeline stylesheet is also retained; add its stylesheet link to a layout
+when a timeline is actually used. The example project paths need updating before
+publishing, and its old tabs need adapting to the current accessible tab markup.
+
+After building, validate the content and generated local references:
+
+```bash
+python3 bin/check-site.py _site
+```
+
+The checker uses Ruby for YAML and Python 3.9+ standard-library HTML parsing.
+It checks publication/news fields, category and flag values, URL syntax, local
+targets and fragments, duplicate IDs, and tab/panel relationships. It makes no
+network requests and does not validate unpublished template project links.
+
+## Analytics
+
+Both layouts use `_includes/google_tag_manager.html`; the container ID is in
+`_config.yml` as `google_tag_manager_id`. Analytics is included only in production
+builds, and the script loads the container only on the hostname configured in
+`site.url`. Ordinary local previews do not include the analytics snippets.
+
+GA4 measurement destinations belong to the Tag Manager configuration, rather
+than a second analytics snippet in the website code. The confirmed container is
+`GTM-T4H46C4`, sending to the GA4 stream `G-G0KYDY7NX0`. Before changing the
+container or destination, confirm that the container belongs to your account
+and matches the intended GA4 web stream. In Google Analytics, select the
+property, then Admin → Data streams → the website stream to find its `G-`
+measurement ID. In Tag Manager, select the website container and check its
+Google tag and trigger. Use one Google tag for the intended stream and one
+page-load trigger; do not also install a separate direct `gtag.js` snippet.
+
+For this single-page profile, publication filters should not count as new page
+visits. In the GA4 web stream, open Enhanced measurement → Page views → advanced
+settings and disable “Page changes based on browser history events”. Retain page
+views on page load. Check any custom Tag Manager History Change triggers too.
+This setting was saved and verified for the confirmed stream on 7 October 2026.
+Use Tag Assistant and GA4 Realtime/DebugView to confirm one `page_view` per page
+load, with no extra page views when selecting publication categories.
+
+If you only use GA4 and do not own a Tag Manager container, a direct Google tag
+is also supported; replace the container integration with one shared Google tag
+for the confirmed stream instead of adding it alongside Tag Manager.
+
 ## Deployment
 
 GitHub Pages continues to host the site at <https://fimrie.github.io/>.
@@ -88,10 +140,10 @@ than the default Pages builder's `github-pages` bundle.
 
 | Trigger | Checks | Publishes |
 | --- | --- | --- |
-| Pull request targeting `master` | Site build, Ruby audit, dependency review | No |
-| Push to `master` | Site build and Ruby audit | After both pass |
-| Manual run on `master` | Site build and Ruby audit | After both pass |
-| Manual run on another branch | Site build and Ruby audit | No |
+| Pull request targeting `master` | Site build, content checks, Ruby audit, dependency review | No |
+| Push to `master` | Site build, content checks, Ruby audit | After checks pass |
+| Manual run on `master` | Site build, content checks, Ruby audit | After checks pass |
+| Manual run on another branch | Site build, content checks, Ruby audit | No |
 | Monday at 08:23 UTC | Ruby audit with current advisories | No |
 
 Build runs upload a Pages artifact that can be downloaded from the Actions run
