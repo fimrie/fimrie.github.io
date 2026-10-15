@@ -6,6 +6,7 @@ from collections import Counter
 from html.parser import HTMLParser
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 from urllib.parse import unquote, urlsplit
@@ -73,6 +74,7 @@ def main():
     papers = records(publication_data, "papers", "publications.yaml")
     news = records(news_data, "items", "news.yaml")
     types = {"preprint", "journal", "ml_conference", "book_chapter"}
+    citation_keys = {}
 
     def required(record, fields, label):
         if not isinstance(record, dict):
@@ -96,6 +98,46 @@ def main():
         except ValueError:
             error(f"{label}: invalid URL {value!r}")
 
+    def check_bibtex(value, label):
+        # Citations are local assets so downloads work without a third-party API.
+        if (not isinstance(value, str)
+                or not re.fullmatch(r"/assets/bibtex/[a-zA-Z0-9_-]+\.bib", value)):
+            error(f"{label}: bibtex must be a local /assets/bibtex/*.bib path")
+            return
+        path = source / value.lstrip("/")
+        if not path.is_file():
+            error(f"{label}: missing BibTeX file {value!r}")
+            return
+        content = re.sub(r"(?m)^\s*%.*$", "", path.read_text(encoding="utf-8"))
+        entries = re.findall(r"(?m)^\s*@(\w+)\s*\{\s*([^,\s{}]+)\s*,", content)
+        if len(entries) != 1:
+            error(f"{label}: BibTeX file must contain one citation")
+            return
+        kind, key = entries[0]
+        if key in citation_keys:
+            error(f"{label}: duplicate BibTeX key {key!r} (also {citation_keys[key]})")
+        citation_keys[key] = value
+        fields = ["title", "author", "year"]
+        if kind.lower() == "article":
+            fields.append("journal")
+        elif kind.lower() in {"inproceedings", "incollection"}:
+            fields.append("booktitle")
+        elif kind.lower() != "misc":
+            error(f"{label}: unsupported BibTeX entry type {kind!r}")
+        for field in fields:
+            if not re.search(r"(?mi)^\s*" + field + r'\s*=\s*(?:\{\s*[^}\s]|"\s*[^"\s])', content):
+                error(f"{label}: BibTeX citation is missing {field}")
+        if not re.search(r'(?mi)^\s*year\s*=\s*[{"]\d{4}[}"]', content):
+            error(f"{label}: BibTeX year must have four digits")
+        braces = re.sub(r"\\.", "", content)
+        depth = 0
+        for character in braces:
+            depth += (character == "{") - (character == "}")
+            if depth < 0:
+                break
+        if depth != 0:
+            error(f"{label}: unbalanced BibTeX braces")
+
     for index, paper in enumerate(papers, start=1):
         label = f"publications.yaml paper {index}"
         if not required(paper, ("title", "authors", "venue", "publication_type", "selected"), label):
@@ -107,6 +149,8 @@ def main():
         for field in ("paper_pdf", "slides", "poster", "video", "code", "website", "data"):
             if field in paper:
                 valid_url(paper[field], f"{label} {field}")
+        if "bibtex" in paper:
+            check_bibtex(paper["bibtex"], label)
 
     for index, item in enumerate(news, start=1):
         label = f"news.yaml item {index}"
