@@ -30,5 +30,9 @@
     {% if paper.data %}
       <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
     {% endif %}
+
+    {% if paper.bibtex %}
+      <a class="button" href="{{ paper.bibtex | relative_url }}" download aria-label="Download BibTeX for {{ paper.title | escape }}">BibTeX</a>
+    {% endif %}
   </div>
 </div>

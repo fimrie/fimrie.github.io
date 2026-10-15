@@ -85,6 +85,28 @@ browser history entry; arrow-key navigation updates the current entry. Without
 the tab script, the full publication list remains available and the tab controls
 are hidden.
 
+Each publication can provide a `bibtex` path to a citation stored in
+`assets/bibtex/`, for example `bibtex: "/assets/bibtex/imrie2021deepcoy.bib"`.
+This adds a BibTeX download beside its existing links, including in Highlights.
+The files are served directly, with no JavaScript or external API required.
+Each file contains one citation with a stable citation key and a DOI or source URL.
+Only acronyms and names such as `{AI}`, `{SMILES}`, and `{OpenBind}` are braced
+within titles, so citation styles can adjust the remaining capitalisation.
+Accented author names use LaTeX escapes. Preprints use `@article` with the
+preprint server and, for arXiv, the identifier in the `journal` field.
+
+Published citations use the journal's final volume/issue year where available or
+the conference proceedings, even when the Paper link points to a preprint.
+Online-first articles may need volume and pages added once assigned; RLDiff is
+currently an advance article cited by DOI. Existing citations are not fetched
+or regenerated during builds. Add a file and its `bibtex` path for a new paper;
+update a preprint's file when it is published, retaining its citation key and path.
+Corrections to publisher metadata can be applied manually when needed.
+
+Homepage publication years follow the final journal issue years where available.
+Keep the displayed titles, author order/names, and years consistent with the
+citation files when updating either source.
+
 Project and experience data are retained as template examples. The project
 markup in `index.html` is inside a Liquid comment so Jekyll does not render it.
 The timeline stylesheet is also retained; add its stylesheet link to a layout
@@ -101,6 +123,8 @@ The checker uses Ruby for YAML and Python 3.9+ standard-library HTML parsing.
 It checks publication/news fields, category and flag values, URL syntax, local
 targets and fragments, duplicate IDs, and tab/panel relationships. It makes no
 network requests and does not validate unpublished template project links.
+BibTeX paths, required citation fields, years, unique keys, and brace balance are
+also checked. Citation files use braced or quoted field values.
 
 ## Analytics
 
