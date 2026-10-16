@@ -1,4 +1,13 @@
 items:
+  - date: "2026/10"
+    text: "OpenBind first blind challenge is now live! Predict protein-ligand complexes for Zika virus NS2B-NS3 protease. Submissions close on 16 December 2026."
+    links:
+      - label: "Announcement"
+        url: "https://openbind.uk/news/announcing-the-first-openbind-blind-challenge-zika-virus-ns2b-ns3-protease-2/"
+      - label: "Hugging Face"
+        url: "https://huggingface.co/spaces/openadmet/openbind-blind-challenge-1"
+    archived: n
+
   - date: "2026/08"
     text: "Our new preprint describing OpenBind's first public structure–affinity dataset and benchmark for structure-based AI is now online."
     links:
