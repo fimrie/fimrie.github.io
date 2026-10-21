@@ -97,10 +97,10 @@ preprint server and, for arXiv, the identifier in the `journal` field.
 
 Published citations use the journal's final volume/issue year where available or
 the conference proceedings, even when the Paper link points to a preprint.
-Online-first articles may need volume and pages added once assigned; RLDiff is
-currently an advance article cited by DOI. Existing citations are not fetched
-or regenerated during builds. Add a file and its `bibtex` path for a new paper;
-update a preprint's file when it is published, retaining its citation key and path.
+Online-first articles may need volume and pages added once assigned. Existing
+citations are not fetched or regenerated during builds. Add a file and its
+`bibtex` path for a new paper; update a preprint's file when it is published,
+retaining its citation key and path.
 Corrections to publisher metadata can be applied manually when needed.
 
 Homepage publication years follow the final journal issue years where available.
