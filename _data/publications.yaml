@@ -1,4 +1,13 @@
 papers:
+  - title: "On the limitations of molecular representations"
+    authors: "Acer Blake, Charlotte M. Deane, <b>Fergus Imrie</b>"
+    venue: "arXiv (preprint). 2026."
+    paper_pdf: "https://arxiv.org/abs/2611.08420"
+    bibtex: "/assets/bibtex/blake2026limitations.bib"
+    code: "https://github.com/oxpig/On-the-limitations-of-molecular-representations"
+    selected: n
+    publication_type: preprint
+
   - title: "The first OpenBind release: An open experimental structure–affinity dataset and benchmark for structure-based AI"
     authors: "Jochem Nelen, Omeir Khan, Etowah Adams, Jasmin C. Aschenbrenner, Warren Thompson, Ali Ebrahim, Eda Çapkin, Cédric Vallée, OpenBind, Elizabeth J. Shotton, Ed J. Griffen, John D. Chodera, Charlotte M. Deane, Frank von Delft, Mohammed AlQuraishi, <b>Fergus Imrie</b>"
     venue: "bioRxiv (preprint). 2026."

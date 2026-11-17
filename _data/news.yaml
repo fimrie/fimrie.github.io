@@ -1,4 +1,11 @@
 items:
+  - date: "2026/11"
+    text: "Our new preprint on the limitations of molecular representations is now online. We find that hundreds of millions of molecules in Enamine REAL are indistinguishable from at least one other molecule using common molecular fingerprints."
+    links:
+      - label: "Preprint"
+        url: "https://arxiv.org/abs/2611.08420"
+    archived: n
+
   - date: "2026/10"
     text: "OpenBind first blind challenge is now live! Predict protein-ligand complexes for Zika virus NS2B-NS3 protease. Submissions close on 16 December 2026."
     links:
@@ -101,14 +108,14 @@ items:
     links:
       - label: "Paper"
         url: "https://pubs.acs.org/doi/10.1021/acs.jcim.4c02008"
-    archived: n
+    archived: y
 
   - date: "2025/01"
     text: "AutoPrognosis-Multimodal, our multimodal AutoML framework integrating imaging and tabular data, was accepted by IEEE Journal of Biomedical and Health Informatics."
     links:
       - label: "Paper"
         url: "https://ieeexplore.ieee.org/document/10842455"
-    archived: n
+    archived: y
 
   - date: "2024/06"
     text: "I joined the Department of Statistics, University of Oxford as a Florence Nightingale Bicentenary Fellow."
