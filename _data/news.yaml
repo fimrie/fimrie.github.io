@@ -1,5 +1,12 @@
 items:
   - date: "2026/11"
+    text: "Our new preprint on protein–ligand co-folding is now online. We find that structural agreement between predictions is a better indicator of their reliability than existing confidence scores."
+    links:
+      - label: "Preprint"
+        url: "https://arxiv.org/abs/2611.27058"
+    archived: n
+
+  - date: "2026/11"
     text: "Our new preprint on the limitations of molecular representations is now online. We find that hundreds of millions of molecules in Enamine REAL are indistinguishable from at least one other molecule using common molecular fingerprints."
     links:
       - label: "Preprint"

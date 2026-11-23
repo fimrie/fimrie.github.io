@@ -1,4 +1,13 @@
 papers:
+  - title: "Structural Agreement Indicates Prediction Accuracy For Protein-Ligand Co-Folding"
+    authors: "J. Henry Broster, Bojana Popovic, Diana Kondinskaia, Charlotte M. Deane, <b>Fergus Imrie</b>"
+    venue: "arXiv (preprint). 2026."
+    paper_pdf: "https://arxiv.org/abs/2611.27058"
+    bibtex: "/assets/bibtex/broster2026agreement.bib"
+    code: "https://github.com/oxpig/core-score"
+    selected: n
+    publication_type: preprint
+
   - title: "On the limitations of molecular representations"
     authors: "Acer Blake, Charlotte M. Deane, <b>Fergus Imrie</b>"
     venue: "arXiv (preprint). 2026."
